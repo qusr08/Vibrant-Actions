@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 // Editors:				Szun Kidd Choi
 // Date Created:		10/29/22
-// Date Last Edited:	10/29/22
+// Date Last Edited:	11/1/22
 
 public class ReticleRaycast : MonoBehaviour
 {
@@ -68,11 +69,6 @@ public class ReticleRaycast : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ////Initializes the UIManager script
-        //uIManager = GameObject.Find("UIManager").GetComponent<UIManager>();
-
-        //reticle = GameObject.Find("Canvas").transform.Find("Reticle").GetComponent<Image>();
-
         // Raycast from the centre of the screen, accounting for the reticle's
         // dimensions.
         reticleWidth = reticle.rectTransform.rect.width;
@@ -94,14 +90,18 @@ public class ReticleRaycast : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-            Cast();
+
     }
 
     // Use FixedUpdate since a Raycast is a physics-related query.
     void FixedUpdate()
     {
         
+    }
+
+    private void OnInteract(InputValue clickValue)
+    {
+        Cast();
     }
 
     /// <summary>
@@ -130,38 +130,5 @@ public class ReticleRaycast : MonoBehaviour
         {
             hit.transform.gameObject.GetComponent<TrashController>().Collect(); 
         }
-
-        //// If a collision is detected, and the object is the key, log a message
-        //// to the console.
-        //if (raycastCollided && hit.transform.CompareTag("Key"))
-        //{
-        //    if (isEnabled)
-        //    {
-        //        Debug.Log("Found key");
-
-        //        Destroy(hit.transform.gameObject);
-
-        //        GameObject.Find("FPSController").GetComponent<FPSPlayerBehaviour>().keyCount++;
-        //    }
-        //    else
-        //    {
-        //        uIManager.SetReticleText("Key");
-        //    }
-        //}
-        //else if (raycastCollided && hit.transform.CompareTag("Door"))
-        //{
-        //    if (isEnabled)
-        //    {
-        //        hit.transform.gameObject.GetComponent<Room>().Activate();
-        //    }
-        //    else
-        //    {
-        //        uIManager.SetReticleText("Door");
-        //    }
-        //}
-        //else
-        //{
-        //    uIManager.SetReticleText("");
-        //}
     }
 }
