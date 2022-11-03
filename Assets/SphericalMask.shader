@@ -1,5 +1,6 @@
 // Part 1: https://www.youtube.com/watch?v=Ws4ukvCgTOU
 // Part 2: https://www.youtube.com/watch?v=sJFu_sdLBy8
+// Part 4: https://www.youtube.com/watch?v=KQGNMCwJaNQ
 
 Shader "Custom/SphericalMask"
 {
@@ -9,9 +10,9 @@ Shader "Custom/SphericalMask"
         _MainTex ("Albedo (RGB)", 2D) = "white" {}
         _Glossiness ("Smoothness", Range(0,1)) = 0.5
         _Metallic ("Metallic", Range(0,1)) = 0.0
-        _Position ("World Position", Vector) = (0,0,0,0)
-        _Radius ("Sphere Radius", Range(0,100)) = 0
-        _Softness ("Sphere Softness", Range(0,100)) = 0
+        // _Position ("World Position", Vector) = (0,0,0,0)
+        // _Radius ("Sphere Radius", Range(0,100)) = 0
+        // _Softness ("Sphere Softness", Range(0,100)) = 0
     }
     SubShader
     {
@@ -38,9 +39,9 @@ Shader "Custom/SphericalMask"
         fixed4 _Color;
 
         // Spherical Mask
-        float4 _Position;
-        half _Radius;
-        half _Softness;
+        uniform float4 SphericalMask_Position;
+        uniform half SphericalMask_Radius;
+        uniform half SphericalMask_Softness;
 
         // Add instancing support for this shader. You need to check 'Enable Instancing' on materials that use the shader.
         // See https://docs.unity3d.com/Manual/GPUInstancing.html for more information about instancing.
@@ -58,8 +59,8 @@ Shader "Custom/SphericalMask"
             float grayscale = (c.r + c.g + c.b) * 0.333;
             fixed3 c_g = fixed3(grayscale,grayscale,grayscale);
 
-            half d = distance(_Position,IN.worldPos);
-            half sum = saturate((d - _Radius) / -_Softness);
+            half d = distance(SphericalMask_Position,IN.worldPos);
+            half sum = saturate((d - SphericalMask_Radius) / -SphericalMask_Softness);
             fixed4 lerpColor = lerp(c,fixed4(c_g,1),sum);
 
             o.Albedo = lerpColor.rgb;
