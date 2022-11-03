@@ -128,8 +128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65621bb948af5784aa84f3dc5357f74c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Radius: 2
   trashArea: {fileID: 8129468529470881367}
-  trashAreaRadius: 2
 --- !u!1 &8129468529470881367
 GameObject:
   m_ObjectHideFlags: 0
