@@ -3,7 +3,7 @@
 // Part 2: https://www.youtube.com/watch?v=sJFu_sdLBy8
 // Part 4: https://www.youtube.com/watch?v=KQGNMCwJaNQ
 
-Shader "Spherical/Grayscale Sphere"
+Shader "Trash/Grayscale"
 {
 	Properties
 	{
@@ -11,9 +11,6 @@ Shader "Spherical/Grayscale Sphere"
 		_MainTex("Albedo (RGB)", 2D) = "white" {}
 		_Glossiness("Smoothness", Range(0,1)) = 0.5
 		_Metallic("Metallic", Range(0,1)) = 0.0
-		// _Position ("World Position", Vector) = (0,0,0,0)
-		// _Radius ("Sphere Radius", Range(0,100)) = 0
-		// _Softness ("Sphere Softness", Range(0,10)) = 0
 	}
 
 		SubShader
@@ -32,9 +29,6 @@ Shader "Spherical/Grayscale Sphere"
 			// Use shader model 3.0 target, to get nicer looking lighting
 			#pragma target 3.0
 
-			// The maximum amount of trash that can be handled by this shader
-			#define MAX_TRASH 100
-
 			sampler2D _MainTex;
 
 			struct Input {
@@ -45,12 +39,11 @@ Shader "Spherical/Grayscale Sphere"
 			half _Glossiness;
 			half _Metallic;
 			fixed4 _Color;
-			// half _Softness;
 
-			// Spherical Mask
-			uniform int GS_Trash_Count;
-			uniform float4 GS_Trash_Positions[MAX_TRASH];
-			uniform half GS_Trash_Radii[MAX_TRASH];
+			// Trash Data
+			uniform int Trash_Count;
+			uniform float4 Trash_Positions[100];
+			uniform half Trash_Radii[100];
 
 			// Add instancing support for this shader. You need to check 'Enable Instancing' on materials that use the shader.
 			// See https://docs.unity3d.com/Manual/GPUInstancing.html for more information about instancing.
@@ -69,12 +62,12 @@ Shader "Spherical/Grayscale Sphere"
 
 				// Set the area around each trash position to grayscale if it is within range to a trash object
 				fixed4 color = c;
-				for (int i = 0; i < GS_Trash_Count; i++) {
+				for (int i = 0; i < Trash_Count; i++) {
 					// Check the distance between the trash position and the surface position
-					half d = distance(GS_Trash_Positions[i], IN.worldPos);
+					half d = distance(Trash_Positions[i], IN.worldPos);
 
 					// If that distance is less than the trash's radius, the position needs to be grayscale
-					if (d <= GS_Trash_Radii[i]) {
+					if (d <= Trash_Radii[i]) {
 						color = grayscale_c;
 						// This can break out of the loop because there is no need to check any other trash if the surface color is already grayscale
 						break;

@@ -26,7 +26,7 @@ public class TrashManager : MonoBehaviour {
 		trashControllers = GetComponentsInChildren<TrashController>( );
 
 		// Update the trash count
-		Shader.SetGlobalInt("GS_Trash_Count", TrashCount);
+		Shader.SetGlobalInt("Trash_Count", TrashCount);
 
 		// Update the positions and radius of each trash object
 		UpdateTrashPositions( );
@@ -56,7 +56,7 @@ public class TrashManager : MonoBehaviour {
 			trashPositionData[i] = trashControllers[i].transform.position;
 		}
 
-		Shader.SetGlobalVectorArray("GS_Trash_Positions", trashPositionData);
+		Shader.SetGlobalVectorArray("Trash_Positions", trashPositionData);
 	}
 
 	/// <summary>
@@ -67,6 +67,6 @@ public class TrashManager : MonoBehaviour {
 			trashRadiiData[i] = trashControllers[i].Radius;
 		}
 
-		Shader.SetGlobalFloatArray("GS_Trash_Radii", trashRadiiData);
+		Shader.SetGlobalFloatArray("Trash_Radii", trashRadiiData);
 	}
 }
