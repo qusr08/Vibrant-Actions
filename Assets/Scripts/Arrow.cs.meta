@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Arrow.cs.meta
 guid: ebf778e56365417438decba11e43fc68
+========
+guid: c163e759666e4be4380415f3fa73a076
+>>>>>>>> develop-shaders:Assets/Scripts/TrashManager.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

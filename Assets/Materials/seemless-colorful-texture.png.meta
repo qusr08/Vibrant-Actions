@@ -1,17 +1,9 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_01_Day_a.png.meta
-guid: b3453e84aa7d88a47a6b80b04864177c
-TextureImporter:
-  internalIDToNameTable: []
-  externalObjects: {}
-  serializedVersion: 11
-========
 guid: b3f94c8d6cd1c9c409543417c91d7f67
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
->>>>>>>> develop-shaders:Assets/Materials/seemless-colorful-texture.png.meta
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -41,21 +33,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<<< HEAD:Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_01_Day_a.png.meta
-    filterMode: -1
-    aniso: 2
-    mipBias: -100
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
-========
     filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 0
     wrapV: 0
     wrapW: 0
->>>>>>>> develop-shaders:Assets/Materials/seemless-colorful-texture.png.meta
   nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
@@ -78,13 +61,6 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-<<<<<<<< HEAD:Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_01_Day_a.png.meta
-  applyGammaDecoding: 0
-  platformSettings:
-  - serializedVersion: 3
-    buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
-========
   ignorePngGamma: 0
   applyGammaDecoding: 0
   cookieLightType: 0
@@ -92,7 +68,6 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
->>>>>>>> develop-shaders:Assets/Materials/seemless-colorful-texture.png.meta
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -104,11 +79,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-<<<<<<<< HEAD:Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_01_Day_a.png.meta
-    maxTextureSize: 4096
-========
     maxTextureSize: 2048
->>>>>>>> develop-shaders:Assets/Materials/seemless-colorful-texture.png.meta
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -119,13 +90,8 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_01_Day_a.png.meta
-    buildTarget: iPhone
-    maxTextureSize: 8192
-========
     buildTarget: Server
     maxTextureSize: 2048
->>>>>>>> develop-shaders:Assets/Materials/seemless-colorful-texture.png.meta
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -136,25 +102,8 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_01_Day_a.png.meta
-    buildTarget: Android
-    maxTextureSize: 8192
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 8192
-========
     buildTarget: WebGL
     maxTextureSize: 2048
->>>>>>>> develop-shaders:Assets/Materials/seemless-colorful-texture.png.meta
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -170,20 +119,17 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID:
     internalID: 0
     vertices: []
-    indices: 
+    indices:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<<< HEAD:Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_01_Day_a.png.meta
-========
     nameFileIdTable: {}
->>>>>>>> develop-shaders:Assets/Materials/seemless-colorful-texture.png.meta
-  spritePackingTag: 
+  spritePackingTag:
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  userData:
+  assetBundleName:
+  assetBundleVariant:
