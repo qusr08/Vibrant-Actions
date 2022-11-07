@@ -15,7 +15,7 @@ Shader "Trash/Grayscale"
 
 		SubShader
 		{
-			Tags { "RenderType" = "Opaque" }
+			Tags { "RenderType" = "Opaque" "TerrainCompatible" = "True"}
 			LOD 200
 
 			CGPROGRAM

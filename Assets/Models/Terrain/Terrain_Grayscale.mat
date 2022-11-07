@@ -7,12 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TrashGrayscaleMaterial
+  m_Name: Terrain_Grayscale
   m_Shader: {fileID: 4800000, guid: 9e8c2c286a7c0474298e617e6da60941, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -21,16 +21,17 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b3f94c8d6cd1c9c409543417c91d7f67, type: 3}
+        m_Texture: {fileID: 2800000, guid: c81b4d14f1ae92344a3eba7cc83074f3, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _TerrainHolesTexture:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _Glossiness: 0
     - _Metallic: 0
-    - _Radius: 3
-    - _Softness: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Position: {r: 2.5, g: 2.5, b: -2.5, a: 0}
   m_BuildTextureStacks: []

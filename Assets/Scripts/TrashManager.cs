@@ -15,15 +15,15 @@ public class TrashManager : MonoBehaviour {
 	/// </summary>
 	public int TrashCount {
 		get {
-			return transform.childCount;
+			return trashControllers.Length;
 		}
 	}
 
 	private void OnValidate ( ) {
 		// Create arrays
+		trashControllers = GetComponentsInChildren<TrashController>( );
 		trashPositionData = new Vector4[TrashCount];
 		trashRadiiData = new float[TrashCount];
-		trashControllers = GetComponentsInChildren<TrashController>( );
 
 		// Update the trash count
 		Shader.SetGlobalInt("Trash_Count", TrashCount);
@@ -53,6 +53,11 @@ public class TrashManager : MonoBehaviour {
 	/// </summary>
 	private void UpdateTrashPositions () {
 		for (int i = 0; i < TrashCount; i++) {
+			// If the game object is not activated in the scene, do not try and update its position
+			if (trashControllers[i] == null) {
+				continue;
+			}
+
 			trashPositionData[i] = trashControllers[i].transform.position;
 		}
 
@@ -64,6 +69,11 @@ public class TrashManager : MonoBehaviour {
 	/// </summary>
 	private void UpdateTrashRadii ( ) {
 		for (int i = 0; i < TrashCount; i++) {
+			// If the game object is not activated in the scene, do not try and update its radius
+			if (trashControllers[i] == null) {
+				continue;
+			}
+
 			trashRadiiData[i] = trashControllers[i].Radius;
 		}
 
