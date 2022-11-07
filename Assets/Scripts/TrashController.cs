@@ -4,13 +4,18 @@ using UnityEngine;
 
 // Editors:				Frank Alfano, Szun Kidd Choi
 // Date Created:		10/25/22
-// Date Last Editted:	10/29/22
+// Date Last Edited:	11/6/22
 
 public class TrashController : MonoBehaviour {
 	[Tooltip("The targets that this trash object will effect when it is collected.")]
 	[SerializeField] private List<GameObject> targets;
 	[Tooltip("A reference to the player object.")]
 	[SerializeField] private GameObject player;
+
+    /// <summary>
+    /// Marks this GameObject for destruction by the GameManager.
+    /// </summary>
+    public bool Collected { get; private set; } = false;
 
 	/// <summary>
 	/// Called when this trash object is considered "collected".
@@ -38,7 +43,8 @@ public class TrashController : MonoBehaviour {
             target.GetComponent<MeshRenderer>().material = targetMaterial;
         }
 
-        // Destroy this trash object
-        Destroy(gameObject);
+        //// Destroy this trash object
+        //Destroy(gameObject);
+        Collected = true;
     }
 }
