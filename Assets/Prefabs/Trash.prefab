@@ -130,6 +130,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Radius: 2
   trashArea: {fileID: 8129468529470881367}
+  targets: []
+  player: {fileID: 0}
 --- !u!1 &8129468529470881367
 GameObject:
   m_ObjectHideFlags: 0
@@ -192,7 +194,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d5a3adb764cf3f4f8738dba8e76adbb, type: 2}
+  - {fileID: 2100000, guid: af1e2d3cfdfefa84a80d291d0feda30a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
