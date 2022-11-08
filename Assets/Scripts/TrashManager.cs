@@ -6,22 +6,22 @@ public class TrashManager : MonoBehaviour {
 	[Tooltip("Checking this box will force an update of the OnValidate method.")]
 	[SerializeField] private bool CallOnValidate;
 
+	public TrashController[ ] TrashControllers;
 	private Vector4[ ] trashPositionData;
 	private float[ ] trashRadiiData;
-	private TrashController[ ] trashControllers;
 
 	/// <summary>
 	/// The number of trash objects in the scene. All Trash objects should be a child to this trash manager object.
 	/// </summary>
 	public int TrashCount {
 		get {
-			return trashControllers.Length;
+			return TrashControllers.Length;
 		}
 	}
 
 	private void OnValidate ( ) {
 		// Create arrays
-		trashControllers = GetComponentsInChildren<TrashController>( );
+		TrashControllers = GetComponentsInChildren<TrashController>( );
 		trashPositionData = new Vector4[TrashCount];
 		trashRadiiData = new float[TrashCount];
 
@@ -51,14 +51,17 @@ public class TrashManager : MonoBehaviour {
 	/// <summary>
 	/// Update the trash positions in the grayscale shader
 	/// </summary>
-	private void UpdateTrashPositions () {
+	public void UpdateTrashPositions () {
 		for (int i = 0; i < TrashCount; i++) {
 			// If the game object is not activated in the scene, do not try and update its position
-			if (trashControllers[i] == null) {
-				continue;
+			if (!TrashControllers[i].gameObject.activeSelf) {
+				// TEMPORARY
+				// This sets the "position" of the grayscale sphere to way below the map so it isn't visible
+				// I can't figure out a better way to do this at this moment, so this works for now
+				trashPositionData[i] = new Vector3(0, -1000, 0);
+			} else {
+				trashPositionData[i] = TrashControllers[i].transform.position;
 			}
-
-			trashPositionData[i] = trashControllers[i].transform.position;
 		}
 
 		Shader.SetGlobalVectorArray("Trash_Positions", trashPositionData);
@@ -67,14 +70,14 @@ public class TrashManager : MonoBehaviour {
 	/// <summary>
 	/// Update the trash radii in the grayscale shader
 	/// </summary>
-	private void UpdateTrashRadii ( ) {
+	public void UpdateTrashRadii ( ) {
 		for (int i = 0; i < TrashCount; i++) {
 			// If the game object is not activated in the scene, do not try and update its radius
-			if (trashControllers[i] == null) {
+			if (!TrashControllers[i].gameObject.activeSelf) {
 				continue;
 			}
 
-			trashRadiiData[i] = trashControllers[i].Radius;
+			trashRadiiData[i] = TrashControllers[i].Radius;
 		}
 
 		Shader.SetGlobalFloatArray("Trash_Radii", trashRadiiData);

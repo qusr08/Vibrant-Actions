@@ -4,7 +4,7 @@ using UnityEngine;
 
 // Editors:				Frank Alfano, Szun Kidd Choi
 // Date Created:		10/25/22
-// Date Last Edited:	11/6/22
+// Date Last Edited:	11/8/22
 
 public class TrashController : MonoBehaviour {
 	[Tooltip("The radius of influence of the trash. Size of the grayscale around the trash.")]
@@ -16,11 +16,6 @@ public class TrashController : MonoBehaviour {
 	[SerializeField] private List<GameObject> targets;
 	[Tooltip("A reference to the player object.")]
 	[SerializeField] private GameObject player;
-
-	/// <summary>
-	/// Marks this GameObject for destruction by the GameManager.
-	/// </summary>
-	public bool Collected { get; private set; } = false;
 
 	/// <summary>
 	/// Called when this trash object is considered "collected".
@@ -47,8 +42,8 @@ public class TrashController : MonoBehaviour {
 		}
 
 		//// Destroy this trash object
-		//Destroy(gameObject);
-		Collected = true;
+		// Destroy(gameObject);
+		gameObject.SetActive(false);
 	}
 
 	/// <summary>
@@ -59,21 +54,8 @@ public class TrashController : MonoBehaviour {
 		if (trashArea == null) {
 			Debug.LogWarning("Trash Area [Transform] is not set!");
 		} else {
-			// Set the shader radius
-			Shader.SetGlobalFloat("SphericalMask_Radius", Radius);
-
 			// Set the size of the trash area
 			trashArea.transform.localScale = Radius * 2 * Vector3.one;
 		}
-
-		Shader.SetGlobalVector("SphericalMask_Position", transform.position);
-	}
-
-	/// <summary>
-	/// Calls as fast as possible while game is running.
-	/// </summary>
-	private void Update ( ) {
-		// As the game runs, update the position of the grayscale shader to the position of this trash
-		Shader.SetGlobalVector("SphericalMask_Position", transform.position);
 	}
 }
