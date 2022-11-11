@@ -889,6 +889,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 769079183660542123, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -951,6 +967,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (3)
@@ -999,6 +1027,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7914989782844661349, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
 --- !u!4 &234862052 stripped
@@ -1018,6 +1050,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 769079183660542123, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -1137,6 +1185,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 769079183660542123, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -1333,6 +1397,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 769079183660542123, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -1635,9 +1715,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1873262942}
     m_Modifications:
+    - target: {fileID: 5393215578589016642, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8616685848737228372, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_Name
       value: PlayerCapsule
+      objectReference: {fileID: 0}
+    - target: {fileID: 8616685848737228372, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_RootOrder
@@ -1855,6 +1943,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!1 &522200808 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 743d250f6e60be24e8664bf9bb6862b3, type: 3}
@@ -1905,6 +1995,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!1001 &526036141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2012,6 +2104,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!4 &537134926 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6aa1752d8bede0448b0eacb96361bcb3, type: 3}
@@ -2536,6 +2630,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -2583,6 +2689,10 @@ PrefabInstance:
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7914989782844661349, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
@@ -2641,6 +2751,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2742,6 +2854,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 769079183660542123, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -3207,6 +3335,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!1001 &827847080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3214,6 +3344,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 769079183660542123, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -3545,6 +3691,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!1001 &932458334
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3838,6 +3986,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!1001 &1017064500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3902,6 +4052,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -3949,6 +4111,10 @@ PrefabInstance:
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7914989782844661349, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
@@ -4272,6 +4438,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!1001 &1125083877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4453,6 +4621,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!1001 &1145970724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4688,6 +4858,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!1 &1199463720 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 743d250f6e60be24e8664bf9bb6862b3, type: 3}
@@ -4738,6 +4910,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!1 &1200625060
 GameObject:
   m_ObjectHideFlags: 0
@@ -4749,7 +4923,7 @@ GameObject:
   - component: {fileID: 1200625061}
   - component: {fileID: 1200625062}
   - component: {fileID: 1200625063}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4891,6 +5065,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!1001 &1224600435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4955,6 +5131,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -5002,6 +5190,10 @@ PrefabInstance:
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7914989782844661349, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
@@ -5085,6 +5277,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -5132,6 +5336,10 @@ PrefabInstance:
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7914989782844661349, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
@@ -5228,6 +5436,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -5275,6 +5495,10 @@ PrefabInstance:
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7914989782844661349, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
@@ -5724,6 +5948,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 769079183660542123, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -5802,6 +6042,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -5850,6 +6102,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7914989782844661349, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
 --- !u!4 &1483129551 stripped
@@ -5875,6 +6131,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 769079183660542123, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -6048,6 +6320,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!1 &1539868138 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 743d250f6e60be24e8664bf9bb6862b3, type: 3}
@@ -6098,6 +6372,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!4 &1585052488 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6aa1752d8bede0448b0eacb96361bcb3, type: 3}
@@ -6388,6 +6664,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 769079183660542123, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -6585,6 +6877,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 769079183660542123, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -6706,6 +7014,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!1001 &1714463825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6813,6 +7123,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!1001 &1748864001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6930,6 +7242,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!1001 &1774453606
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7485,6 +7799,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!1001 &1913793558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7549,6 +7865,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (4)
@@ -7596,6 +7924,10 @@ PrefabInstance:
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7914989782844661349, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
@@ -7915,6 +8247,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (2)
@@ -7962,6 +8306,10 @@ PrefabInstance:
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7914989782844661349, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
@@ -8050,6 +8398,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (1)
@@ -8097,6 +8457,10 @@ PrefabInstance:
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7914989782844661349, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
@@ -8166,6 +8530,8 @@ MonoBehaviour:
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
 --- !u!1001 &2059126633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8420,6 +8786,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: minDist
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -8467,6 +8845,10 @@ PrefabInstance:
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7914989782844661349, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
