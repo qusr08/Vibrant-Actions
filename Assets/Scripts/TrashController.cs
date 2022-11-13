@@ -10,20 +10,35 @@ public class TrashController : MonoBehaviour
 {
     [Tooltip("The radius of influence of the trash. Size of the grayscale around the trash.")]
     [SerializeField][Min(0)] public float Radius;
+
     [Space]
+
     [Tooltip("The trash area object. The sphere that surrounds a trash object.")]
     [SerializeField] private GameObject trashArea;
+
     [Tooltip("The targets that this trash object will effect when it is collected.")]
     [SerializeField] private List<GameObject> targets;
+
     [Tooltip("A reference to the player object.")]
     [SerializeField] private GameObject player;
+
     [Tooltip("The speed by which this trash object moves towards the player " +
         "after it is collected.")]
     [SerializeField] private float speed;
+
     [Tooltip("The minimum distance this trash object must be from the player " +
         "before it is deactivated in the Scene.")]
     [SerializeField][Min(0)] private float minDist;
-    private Vector3 midpoint;
+
+    [Tooltip("Time to move from the initial position to the player, in seconds.")]
+    [SerializeField][Min(0)] private float journeyTime;
+
+    /// <summary>
+    /// The centre of the arc formed between this trash object and the player.
+    /// </summary>
+    private Vector3 centre;
+    private float startTime;
+
 
     /// <summary>
     /// Used to identify when to start moving this trash object toward the player.
@@ -63,9 +78,10 @@ public class TrashController : MonoBehaviour
 
         //// Destroy this trash object
         // Destroy(gameObject);
-        //gameObject.SetActive(false);
+
+        // Begin the animation and get the time at which it starts.
         collected = true;
-        midpoint = (transform.position - player.transform.position) / 2;
+        startTime = Time.time;
     }
 
     private void Update()
@@ -76,11 +92,29 @@ public class TrashController : MonoBehaviour
             // Move this trash object toward the player until it is close enough.
             if ((transform.position - player.transform.position).magnitude > minDist)
             {
-                //transform.RotateAround(player.transform.position, midpoint, 90 * Time.deltaTime);
-                transform.position = Vector3.MoveTowards(
-                    transform.position,
-                    player.transform.position,
-                    speed);
+                // The centre of the arc is the midpoint between this trash
+                // object and the player.
+                centre = (transform.position + player.transform.position) * 0.5f;
+
+                // Move the centre downwards slightly to make the arc vertical.
+                centre -= new Vector3(0, 1, 0);
+
+                // Interpolate over the arc relative to the centre.
+                Vector3 relCenter = transform.position - centre;
+                Vector3 playerRelCenter = player.transform.position - centre;
+
+                // The fraction of the animation that has happened so far is
+                // equal to the elapsed time divided by the desired time for
+                // the total journey.
+                float fracComplete = (Time.time - startTime) / journeyTime;
+
+                // Slerp treats initial and target vectors as directions rather
+                // than points in space.
+                transform.position = Vector3.Slerp(
+                    relCenter, 
+                    playerRelCenter, 
+                    fracComplete);
+                transform.position += centre;
             }
             // Once it is close enough, deactivate it in the Scene.
             else gameObject.SetActive(false);
