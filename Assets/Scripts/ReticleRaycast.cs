@@ -65,7 +65,7 @@ public class ReticleRaycast : MonoBehaviour
     /// Layer mask to Raycast to.
     /// </summary>
     private int layerMask;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -75,7 +75,7 @@ public class ReticleRaycast : MonoBehaviour
         reticleHeight = reticle.rectTransform.rect.height;
         centreX = Screen.width / 2 - reticleWidth / 2;
         centreY = Screen.width / 2 - reticleHeight / 2;
-        
+
         // Get the index of the Interactables layer.
         layerIndex = LayerMask.NameToLayer("Interactables");
 
@@ -96,7 +96,7 @@ public class ReticleRaycast : MonoBehaviour
     // Use FixedUpdate since a Raycast is a physics-related query.
     void FixedUpdate()
     {
-        
+
     }
 
     private void OnInteract(InputValue clickValue)
@@ -128,7 +128,9 @@ public class ReticleRaycast : MonoBehaviour
         // Click on trash when close enough to it to collect.
         if (raycastCollided && hit.transform.CompareTag("Trash"))
         {
-            hit.transform.gameObject.GetComponent<TrashController>().Collect(); 
+            TrashController tc = hit.transform.gameObject.GetComponent<TrashController>();
+            tc.Collect();
+            AudioManager.instance.PlayOneShot(tc.TrashType);
         }
     }
 }
