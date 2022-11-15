@@ -128,7 +128,9 @@ public class ReticleRaycast : MonoBehaviour
         // Click on trash when close enough to it to collect.
         if (raycastCollided && hit.transform.CompareTag("Trash"))
         {
-            hit.transform.gameObject.GetComponent<TrashController>().Collect(); 
+            TrashController tc = hit.transform.gameObject.GetComponent<TrashController>();
+            tc.Collect();
+            AudioManager.instance.PlayOneShot(tc.TrashType);
         }
     }
 }
