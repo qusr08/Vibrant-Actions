@@ -130,7 +130,7 @@ public class ReticleRaycast : MonoBehaviour
         {
             TrashController tc = hit.transform.gameObject.GetComponent<TrashController>();
             tc.Collect();
-            AudioManager.instance.PlayOneShot(tc.TrashType);
+            AudioManager.instance.PlayCollectSFX(tc.TrashType);
         }
     }
 }

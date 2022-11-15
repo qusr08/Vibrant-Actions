@@ -27,7 +27,6 @@ public class AudioManager : MonoBehaviour
             "alternate between swoosh and trash pickup sounds. Index 0 is the" +
             "swoosh audio source, and index 1 is the trash pickup audio source.")]
     [SerializeField] private AudioSource[] audioSources;
-    // private AudioSource music, effects;
 
     void Awake()
     {
@@ -66,7 +65,12 @@ public class AudioManager : MonoBehaviour
         Play("Theme");
     }
 
-    public void PlayOneShot(TrashTypes trashType)
+    /// <summary>
+    /// Plays the swoosh sound effect, followed by the corresponding trash
+    /// type's collection sound effect.
+    /// </summary>
+    /// <param name="trashType"></param>
+    public void PlayCollectSFX(TrashTypes trashType)
     {
         // Get random swoosh and trash sounds.
         Sound swoosh = swooshSounds[Random.Range(0, swooshSounds.Length)];
@@ -82,12 +86,12 @@ public class AudioManager : MonoBehaviour
                 break;
         }
 
-        Debug.Log(swoosh.clip.name);
+        // Set the clips for both audio sources accordingly.
         audioSources[0].clip = swoosh.clip;
         audioSources[1].clip = trash.clip;
 
-        // Play audio
-        audioSources[0].Play(/*swoosh.clip*/);
+        // Play audio clips in sequence.
+        audioSources[0].Play();
         audioSources[1].PlayScheduled(swoosh.clip.length);
     }
 
