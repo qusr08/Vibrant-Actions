@@ -4,7 +4,13 @@ using UnityEngine;
 
 // Editors:				Frank Alfano, Szun Kidd Choi
 // Date Created:		10/25/22
-// Date Last Edited:	11/8/22
+// Date Last Edited:	11/12/22
+
+public enum TrashTypes
+{
+    Bottle,
+    Cup
+}
 
 public class TrashController : MonoBehaviour
 {
@@ -33,10 +39,17 @@ public class TrashController : MonoBehaviour
     [Tooltip("Time to move from the initial position to the player, in seconds.")]
     [SerializeField][Min(0)] private float journeyTime;
 
+    [Tooltip("The type of trash item this object is.")]
+    [SerializeField] private TrashTypes trashType;
+    
     /// <summary>
     /// The centre of the arc formed between this trash object and the player.
     /// </summary>
     private Vector3 centre;
+
+    /// <summary>
+    /// Time at which the animation begins.
+    /// </summary>
     private float startTime;
 
 
@@ -44,6 +57,8 @@ public class TrashController : MonoBehaviour
     /// Used to identify when to start moving this trash object toward the player.
     /// </summary>
     private bool collected;
+
+    public TrashTypes TrashType { get { return trashType; } }
 
     private void Start()
     {
