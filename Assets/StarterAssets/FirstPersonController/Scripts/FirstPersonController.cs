@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
 #endif
@@ -20,6 +21,8 @@ namespace StarterAssets
 		public float RotationSpeed = 1.0f;
 		[Tooltip("Acceleration and deceleration")]
 		public float SpeedChangeRate = 10.0f;
+		// [Tooltip("Player Footsteps")] 
+		// private bool useFootsteps = true;
 
 		[Space(10)]
 		[Tooltip("The height the player can jump")]
@@ -50,6 +53,17 @@ namespace StarterAssets
 		public float TopClamp = 90.0f;
 		[Tooltip("How far in degrees can you move the camera down")]
 		public float BottomClamp = -90.0f;
+	
+		[Header("Footstep Parameters")] 
+		[SerializeField] private float baseStepSpeed = 0.5f;
+		[SerializeField] private float runStepMultiplier = 0.6f;
+		[SerializeField] private AudioSource footstepAS = default;
+		[SerializeField] private AudioClip[] woodClips = default;
+		[SerializeField] private AudioClip[] sandClips = default;
+		[SerializeField] private AudioClip[] waterClips = default;
+		private float footstepTimer = 0;
+		private bool isRunning;
+		private float GetCurrentOffset => isRunning ? baseStepSpeed * runStepMultiplier : baseStepSpeed;
 
 		// cinemachine
 		private float _cinemachineTargetPitch;
@@ -64,6 +78,7 @@ namespace StarterAssets
 		private float _jumpTimeoutDelta;
 		private float _fallTimeoutDelta;
 
+		private Camera playerCamera; //find main camera
 	
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 		private PlayerInput _playerInput;
@@ -115,6 +130,7 @@ namespace StarterAssets
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
+			Footsteps();
 		}
 
 		private void LateUpdate()
@@ -196,6 +212,41 @@ namespace StarterAssets
 
 			// move the player
 			_controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
+		}
+
+		//Play different sounds based on terrain material
+		private void Footsteps()
+		{
+			//Check if the player is grounded and moving
+			if(!Grounded) return;
+			if(_input.move == Vector2.zero) return;
+
+			footstepTimer -= Time.deltaTime;
+
+			if(footstepTimer <= 0)
+			{
+				if(Physics.Raycast(_mainCamera.transform.position, Vector3.down, out RaycastHit hit, 3))
+				{
+					//Play sound
+					switch(hit.collider.tag)
+					{
+						case "Footsteps/Sand":
+							footstepAS.PlayOneShot(sandClips[Random.Range(0, sandClips.Length - 1)]);
+							break;
+						case "Footsteps/Water":
+							footstepAS.PlayOneShot(waterClips[Random.Range(0, waterClips.Length - 1)]);
+							break;
+						case "Footsteps/Wood":
+							footstepAS.PlayOneShot(woodClips[Random.Range(0, woodClips.Length - 1)]);
+							break;
+						default:
+							break;
+					}
+				}
+
+				//Reset timer
+				footstepTimer = GetCurrentOffset;
+			}
 		}
 
 		private void JumpAndGravity()
