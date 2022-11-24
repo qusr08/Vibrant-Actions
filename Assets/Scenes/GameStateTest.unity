@@ -611,11 +611,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 743d250f6e60be24e8664bf9bb6862b3, type: 3}
   m_PrefabInstance: {fileID: 1630599573}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &166575881 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6175127003398185940, guid: e1db49f5f848f664ca6591eaf5aa4673, type: 3}
-  m_PrefabInstance: {fileID: 1611827386}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &175062055 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 743d250f6e60be24e8664bf9bb6862b3, type: 3}
@@ -5530,13 +5525,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1226421898}
-  m_LocalRotation: {x: 0, y: 0.97236997, z: -0.23344536, w: 0}
-  m_LocalPosition: {x: -34.413513, y: 12.6, z: -108.83}
+  m_LocalRotation: {x: -0, y: 0.97236997, z: -0.23344536, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 1497046383}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 27, y: 180, z: 0}
 --- !u!1001 &1247633369
 PrefabInstance:
@@ -6231,13 +6226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e97b117638786f46be7988f40a9b5a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1402523260}
-  recyclingPosition: {fileID: 1490498765}
-  playerCapsule: {fileID: 1402523260}
-  recyclingCamera: {fileID: 1226421900}
-  mainCamera: {fileID: 598372536}
-  inRecyclingTrigger: 0
-  toReceptacles: {fileID: 166575881}
 --- !u!1001 &1430916173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6510,13 +6498,47 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1490498765}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.404, y: 11.435, z: -107.382}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.009513855, y: -1.165, z: 1.447998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 1497046383}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1497046382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1497046383}
+  m_Layer: 0
+  m_Name: Recycling Minigame Stuff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1497046383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497046382}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -34.413513, y: 12.6, z: -108.83}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1991753973}
+  - {fileID: 1490498766}
+  - {fileID: 1226421901}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1506982422
 PrefabInstance:
@@ -8850,13 +8872,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991753969}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.92, y: 13.77, z: -113.075}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.506485, y: 1.1700001, z: -4.244995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 1497046383}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2049670403
 PrefabInstance:
@@ -9143,8 +9165,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc2479c65d16643419e98498a4430111, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1402523260}
+  mainCamera: {fileID: 598372536}
+  recyclingCamera: {fileID: 1226421900}
+  playerCapsule: {fileID: 1402523260}
   playerStateHandler: {fileID: 1402523270}
+  recyclingPosition: {fileID: 1490498765}
+  playerInput: {fileID: 1402523263}
+  arrow: {fileID: 1200625060}
 --- !u!4 &2069174685
 Transform:
   m_ObjectHideFlags: 0
