@@ -58,6 +58,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Recycle",
+                    "type": "Button",
+                    "id": "efa312f0-ac15-435c-b6fa-c1b154dcc410",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "EnableRecycling",
+                    "type": "Button",
+                    "id": "cacd7195-d557-4930-8d7b-cc161cf7f283",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -256,6 +274,56 @@
                     "processors": "",
                     "groups": "KeyboardMouse",
                     "action": "Toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4e9fd35d-ac79-4bde-84c7-bd4e2de5ffbc",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Recycle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a2a8421f-140c-4e48-a11f-e7c6dc958304",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EnableRecycling",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Recycling",
+            "id": "089b927a-5885-4144-8a71-570a647e9189",
+            "actions": [
+                {
+                    "name": "EnablePlayer",
+                    "type": "Button",
+                    "id": "f4124933-635f-4140-854a-687799a2600c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "015f98ea-f69e-48e1-b50c-0bb09637a150",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EnablePlayer",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
