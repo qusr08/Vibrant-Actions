@@ -46,6 +46,9 @@ public class TrashController : MonoBehaviour
     [SerializeField]
     private bool recyclable;
 
+    /// <summary>
+    /// Getter for whether this trash object is recyclable.
+    /// </summary>
     public bool Recyclable { get { return recyclable; } }
 
     /// <summary>
@@ -63,6 +66,9 @@ public class TrashController : MonoBehaviour
     /// </summary>
     private bool collected;
 
+    /// <summary>
+    /// The type of this trash object.
+    /// </summary>
     public TrashTypes TrashType { get { return trashType; } }
 
     private void Start()

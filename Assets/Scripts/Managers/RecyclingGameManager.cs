@@ -7,6 +7,16 @@ public class RecyclingGameManager : MonoBehaviour
     [SerializeField, Tooltip("The player's bag.")]
     private Bag bag;
 
+    /// <summary>
+    /// Determines whether the player's choice to place the trash object in the
+    /// recycling or landfill bin is correct.
+    /// </summary>
+    /// <param name="isRecyclable">
+    /// Player opinion on whether the current trash object is recyclable.
+    /// </param>
+    /// <returns>
+    /// "Correct" if player chooses correctly, "Incorrect" otherwise.
+    /// </returns>
     public string Validate(bool isRecyclable)
     {
         if (bag.Peek.Recyclable == isRecyclable)
@@ -15,17 +25,5 @@ public class RecyclingGameManager : MonoBehaviour
             return "Correct";
         }
         else return "Incorrect";
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

@@ -24,18 +24,19 @@ public class UIManager : MonoBehaviour
     [SerializeField, Tooltip("Arrow pointing to the nearest piece of trash.")]
     private GameObject arrow;
 
+    /// <summary>
+    /// Captures the return value of RecyclingGameManager.Validate().
+    /// </summary>
     public string ChoiceCorrectOrIncorrect { get; set; }
 
-
-    /// <summary>
-    /// Displays UI related to the collection phase.
-    /// </summary>
-    public void ShowCollectionUI()
-    {
-        goRecycling.SetActive(true);
-        arrow.SetActive(true);
-    }
-
+    ///// <summary>
+    ///// Displays UI related to the collection phase.
+    ///// </summary>
+    //public void ShowCollectionUI()
+    //{
+    //    goRecycling.SetActive(true);
+    //    arrow.SetActive(true);
+    //}
 
     /// <summary>
     /// Hides UI related to the collection phase.
@@ -47,15 +48,18 @@ public class UIManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Updates UI related to the collection phase.
+    /// Displays and updates UI related to the collection phase.
     /// </summary>
     public void UpdateCollectionUI()
     {
+        // Bag is full. Tell player to go recycling and hide arrow.
         if (bag.Full)
         {
             goRecycling.SetActive(true);
             arrow.SetActive(false);
         }
+        // Bag is not full. Hide text telling player to go recycling and
+        // display the arrow.
         else
         {
             goRecycling.SetActive(false);

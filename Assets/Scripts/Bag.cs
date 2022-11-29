@@ -90,10 +90,4 @@ public class Bag : MonoBehaviour
     {
         bag = new Stack<TrashController>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }

@@ -13,7 +13,7 @@ public class PlayerStateHandler : MonoBehaviour
     [SerializeField, Tooltip("The game manager for the recycling minigame.")]
     private RecyclingGameManager recyclingGameManager;
 
-    [SerializeField]
+    [SerializeField, Tooltip("The UI Manager.")]
     private UIManager uiManager;
     
     /// <summary>
@@ -51,6 +51,9 @@ public class PlayerStateHandler : MonoBehaviour
             inRecyclingTrigger = false;
     }
 
+    /// <summary>
+    /// Switches the player state to Collecting.
+    /// </summary>
     public void SwitchToCollecting()
     {
         State = GameStates.Collecting;
@@ -75,6 +78,9 @@ public class PlayerStateHandler : MonoBehaviour
         State = GameStates.Collecting;
     }
 
+    /// <summary>
+    /// Listen for 'A' keypress to throw trash in the landfill bin.
+    /// </summary>
     private void OnLandfill(InputValue landfillValue)
     {
         // Yes, probably not the cleanest way to handle passing the return value
@@ -82,6 +88,9 @@ public class PlayerStateHandler : MonoBehaviour
         uiManager.ChoiceCorrectOrIncorrect = recyclingGameManager.Validate(false);
     }
 
+    /// <summary>
+    /// Listen for 'D' keypress to throw trash in the recycling bin.
+    /// </summary>
     private void OnRecycle(InputValue landfillValue)
     {
         // Yes, probably not the cleanest way to handle passing the return value

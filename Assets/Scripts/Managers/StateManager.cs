@@ -49,6 +49,9 @@ public class StateManager : MonoBehaviour
         "trash to the player in the scene.")] 
     private GameObject arrow;
 
+    /// <summary>
+    /// The current game state.
+    /// </summary>
     public GameStates State { get; private set; }
 
     /// <summary>
@@ -171,7 +174,6 @@ public class StateManager : MonoBehaviour
 
                     // Show/hide relevant UI elements.
                     uiManager.HideRecyclingUI();
-                    uiManager.ShowCollectionUI();
                 }
 
                 break;
