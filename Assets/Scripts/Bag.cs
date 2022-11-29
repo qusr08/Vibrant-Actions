@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Bag : MonoBehaviour
 {
     [SerializeField, Tooltip("Maximum pieces of trash the bag can hold.")]
     private int capacity;
+    [SerializeField] private TextMeshProUGUI bagCapacityText;
 
     /// <summary>
     /// Internally tracks the trash objects the player has collected.
@@ -55,6 +57,7 @@ public class Bag : MonoBehaviour
         if (bag.Count > 0)
         {
             bag.Pop();
+            UpdateBagUI( );
 
             // There is nothing left to recycle. Transition player back to
             // collection phase.
@@ -80,6 +83,8 @@ public class Bag : MonoBehaviour
         if (bag.Count < capacity)
         {
             bag.Push(trash);
+            UpdateBagUI( );
+
             return true;
         }
         else return false;
@@ -89,5 +94,16 @@ public class Bag : MonoBehaviour
     void Start()
     {
         bag = new Stack<TrashController>();
+        
+        // Make sure the bag shows the right capacity at the start of the game
+        UpdateBagUI( );
+    }
+
+    /// <summary>
+    /// Update the bag ui numbers.
+    /// </summary>
+    private void UpdateBagUI () {
+        // Set the UI text to reflect how full the player's bag is and the capacity of the bag
+        bagCapacityText.text = $"{Count} / {Capacity}";
     }
 }

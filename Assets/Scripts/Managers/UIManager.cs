@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
-public class UIManager : MonoBehaviour
-{
-    [SerializeField, Tooltip("Displays bag capacity.")]
-    private TextMeshProUGUI bagCapacity;
+public class UIManager : MonoBehaviour {
+
+    [SerializeField, Tooltip("The ui for the recycling minigame.")]
+    private GameObject recyclingMinigameUI;
 
     [SerializeField, Tooltip("Tells the player to go recycling.")]
     private GameObject goRecycling;
@@ -18,16 +19,34 @@ public class UIManager : MonoBehaviour
         "decision was correct or incorrect.")]
     private GameObject correctOrIncorrect;
 
+    [SerializeField, Tooltip("The sprite of the current item for the recycling minigame.")]
+    private Image trashThumbnailImage;
+    [SerializeField] private Sprite bottleSprite;
+    [SerializeField] private Sprite coffeeCupSprite;
+
     [SerializeField, Tooltip("The player's bag.")]
     private Bag bag;
 
     [SerializeField, Tooltip("Arrow pointing to the nearest piece of trash.")]
     private GameObject arrow;
 
+
     /// <summary>
     /// Captures the return value of RecyclingGameManager.Validate().
     /// </summary>
-    public string ChoiceCorrectOrIncorrect { get; set; }
+    private string _choiceCorrectOrIncorrect = "";
+    public string ChoiceCorrectOrIncorrect {
+        get {
+            return _choiceCorrectOrIncorrect;
+        }
+
+        set {
+            _choiceCorrectOrIncorrect = value;
+
+            StopAllCoroutines( );
+            StartCoroutine(UpdateCorrectOrIncorrect( ));
+        } 
+    }
 
     ///// <summary>
     ///// Displays UI related to the collection phase.
@@ -70,29 +89,18 @@ public class UIManager : MonoBehaviour
     /// <summary>
     /// Displays UI related to the recycling minigame.
     /// </summary>
-    public void ShowRecyclingUI()
-    {
-        currentItem.SetActive(true);
-        correctOrIncorrect.SetActive(true);
-
-        // Show the topmost item in the bag.
-        currentItem.GetComponent<TextMeshProUGUI>().text = string.Format(
-            "Current Item: {0}",
-            bag.Peek.TrashType.ToString());
-
-        // This method gets called when the minigame starts. Default to an
-        // empty string.
-        correctOrIncorrect.GetComponent<TextMeshProUGUI>().text = string.Empty;
+    public void ShowRecyclingUI() {
+        recyclingMinigameUI.SetActive(true);
+        ChoiceCorrectOrIncorrect = "";
+        UpdateRecyclingUI( );
     }
 
     /// <summary>
     /// Hides UI related to the recycling minigame.
     /// </summary>
-    public void HideRecyclingUI()
-    {
-        currentItem.SetActive(false);
-        correctOrIncorrect.SetActive(false);
-        ChoiceCorrectOrIncorrect = string.Empty;
+    public void HideRecyclingUI() {
+        recyclingMinigameUI.SetActive(false);
+        ChoiceCorrectOrIncorrect = "";
     }
 
     /// <summary>
@@ -103,26 +111,40 @@ public class UIManager : MonoBehaviour
         if (!bag.Empty)
         {
             // Show the topmost item in the bag.
-            currentItem.GetComponent<TextMeshProUGUI>().text = string.Format(
-                "Current Item: {0}",
-                bag.Peek.TrashType.ToString());
-        }
+            currentItem.GetComponent<TextMeshProUGUI>( ).text = bag.Peek.TrashType.ToString( );
+
+            // Set the sprite of the recycling minigame based on the trash type
+            // For more trash types, add to this switch statement with more references to each trash's thumbnail sprite
+            switch (bag.Peek.TrashType) {
+				case TrashTypes.Bottle:
+                    trashThumbnailImage.sprite = bottleSprite;
+
+                    break;
+				case TrashTypes.Cup:
+                    trashThumbnailImage.sprite = coffeeCupSprite;
+
+                    break;
+				default:
+                    trashThumbnailImage.sprite = null;
+
+                    break;
+			}
+		}
+    }
+
+    /// <summary>
+    /// Update the correct/incorrect text and have it disappear after a certain amount of seconds
+    /// </summary>
+    /// <returns></returns>
+    private IEnumerator UpdateCorrectOrIncorrect () {
+        correctOrIncorrect.SetActive(true);
 
         // Show whether the player's most recent choice was correct or not.
-        correctOrIncorrect.GetComponent<TextMeshProUGUI>().text = 
-            ChoiceCorrectOrIncorrect;
-    }
+        correctOrIncorrect.GetComponent<TextMeshProUGUI>( ).text = ChoiceCorrectOrIncorrect;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+        // Wait 0.75 second before disabling the text
+        yield return new WaitForSeconds(0.75f);
 
-    // Update is called once per frame
-    void Update()
-    {
-        // Bag capacity is always displayed regardless of state.
-        bagCapacity.text = string.Format("Bag: {0}/{1}", bag.Count, bag.Capacity);
+        correctOrIncorrect.SetActive(false);
     }
 }
