@@ -21,6 +21,9 @@ public class StateManager : MonoBehaviour
     /// </summary>
     private static StateManager instance;
 
+    [SerializeField, Tooltip("The UI Manager.")]
+    private UIManager uiManager;
+
     [SerializeField, Tooltip("The camera attached to the first person controller.")] 
     private Camera mainCamera;
 
@@ -46,7 +49,7 @@ public class StateManager : MonoBehaviour
         "trash to the player in the scene.")] 
     private GameObject arrow;
 
-    public GameStates State { get; set; }
+    public GameStates State { get; private set; }
 
     /// <summary>
     /// Getter for the static singleton instance.
@@ -104,6 +107,9 @@ public class StateManager : MonoBehaviour
 
             // Collecting phase
             case GameStates.Collecting:
+                // Update collection UI as long as we are in this state.
+                uiManager.UpdateCollectionUI();
+
                 // Trigger is player state handler changing state.
                 // Switch to recycling state.
                 if (playerStateHandler.State == GameStates.Recycling)
@@ -131,12 +137,19 @@ public class StateManager : MonoBehaviour
                     // Switch input action maps to listen for inputs relevant
                     // to the recycling minigame.
                     playerInput.SwitchCurrentActionMap("Recycling");
+
+                    // Show/hide relevant UI elements.
+                    uiManager.HideCollectionUI();
+                    uiManager.ShowRecyclingUI();
                 }
 
                 break;
 
             // Recycling minigame
             case GameStates.Recycling:
+                // Update recycling UI as long as we are in this state.
+                uiManager.UpdateRecyclingUI();
+
                 // Trigger is player state handler changing state.
                 // Switch to collecting state.
                 if (playerStateHandler.State == GameStates.Collecting)
@@ -155,6 +168,10 @@ public class StateManager : MonoBehaviour
                     mainCamera.enabled = !mainCamera.enabled;
                     recyclingCamera.enabled = !recyclingCamera.enabled;
                     //Debug.Log("player enabled");
+
+                    // Show/hide relevant UI elements.
+                    uiManager.HideRecyclingUI();
+                    uiManager.ShowCollectionUI();
                 }
 
                 break;

@@ -207,3 +207,8 @@ MonoBehaviour:
   trashArea: {fileID: 1578017800}
   targets: []
   player: {fileID: 0}
+  speed: 0
+  minDist: 0
+  journeyTime: 0
+  trashType: 1
+  recyclable: 0

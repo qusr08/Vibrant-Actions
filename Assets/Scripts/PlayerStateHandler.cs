@@ -10,6 +10,12 @@ using UnityEngine.InputSystem;
 
 public class PlayerStateHandler : MonoBehaviour
 {
+    [SerializeField, Tooltip("The game manager for the recycling minigame.")]
+    private RecyclingGameManager recyclingGameManager;
+
+    [SerializeField]
+    private UIManager uiManager;
+    
     /// <summary>
     /// Flags whether the player is in proximity to be able to play the 
     /// recycling minigame.
@@ -45,13 +51,19 @@ public class PlayerStateHandler : MonoBehaviour
             inRecyclingTrigger = false;
     }
 
+    public void SwitchToCollecting()
+    {
+        State = GameStates.Collecting;
+    }
+
     /// <summary>
     /// Listen for ENTER keypress to switch states to Recycling if player is
     /// close enough to the bins.
     /// </summary>
     private void OnEnableRecycling(InputValue enableRecyclingValue)
     {
-        if (inRecyclingTrigger) State = GameStates.Recycling;
+        if (inRecyclingTrigger && !GetComponent<Bag>().Empty) 
+            State = GameStates.Recycling;
     }
 
     /// <summary>
@@ -61,5 +73,19 @@ public class PlayerStateHandler : MonoBehaviour
     private void OnEnablePlayer(InputValue enablePlayerValue)
     {
         State = GameStates.Collecting;
+    }
+
+    private void OnLandfill(InputValue landfillValue)
+    {
+        // Yes, probably not the cleanest way to handle passing the return value
+        // to the UI Manager, but it'll have to do for now.
+        uiManager.ChoiceCorrectOrIncorrect = recyclingGameManager.Validate(false);
+    }
+
+    private void OnRecycle(InputValue landfillValue)
+    {
+        // Yes, probably not the cleanest way to handle passing the return value
+        // to the UI Manager, but it'll have to do for now.
+        uiManager.ChoiceCorrectOrIncorrect = recyclingGameManager.Validate(true);
     }
 }
