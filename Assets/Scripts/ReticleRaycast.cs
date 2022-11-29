@@ -31,6 +31,11 @@ public class ReticleRaycast : MonoBehaviour
     [SerializeField] private Camera cam;
 
     /// <summary>
+    /// The player's bag.
+    /// </summary>
+    [SerializeField] private Bag bag;
+
+    /// <summary>
     /// Width of the reticle image asset.
     /// </summary>
     private float reticleWidth;
@@ -129,8 +134,14 @@ public class ReticleRaycast : MonoBehaviour
         if (raycastCollided && hit.transform.CompareTag("Trash"))
         {
             TrashController tc = hit.transform.gameObject.GetComponent<TrashController>();
-            tc.Collect();
-            AudioManager.instance.PlayCollectSFX(tc.TrashType);
+
+            // Only allow the player to collect the piece of trash if the bag
+            // is not already full.
+            if (bag.Collect(tc))
+            {
+                tc.Collect();
+                AudioManager.instance.PlayCollectSFX(tc.TrashType);
+            }
         }
     }
 }

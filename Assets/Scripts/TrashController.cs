@@ -42,6 +42,12 @@ public class TrashController : MonoBehaviour
     [Tooltip("The type of trash item this object is.")]
     [SerializeField] private TrashTypes trashType;
 
+    [Tooltip("Whether this trash object is recyclable.")]
+    [SerializeField]
+    private bool recyclable;
+
+    public bool Recyclable { get { return recyclable; } }
+
     /// <summary>
     /// The centre of the arc formed between this trash object and the player.
     /// </summary>
@@ -51,7 +57,6 @@ public class TrashController : MonoBehaviour
     /// Time at which the animation begins.
     /// </summary>
     private float startTime;
-
 
     /// <summary>
     /// Used to identify when to start moving this trash object toward the player.
