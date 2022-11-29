@@ -33,7 +33,7 @@ public class ReticleRaycast : MonoBehaviour
     /// <summary>
     /// The player's bag.
     /// </summary>
-    [SerializeField] private Bag bag;
+    private Bag bag;
 
     /// <summary>
     /// Width of the reticle image asset.
@@ -74,6 +74,9 @@ public class ReticleRaycast : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // The bag is attached to the same component as this script.
+        bag = GetComponent<Bag>();
+        
         // Raycast from the centre of the screen, accounting for the reticle's
         // dimensions.
         reticleWidth = reticle.rectTransform.rect.width;

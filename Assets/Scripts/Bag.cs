@@ -13,6 +13,16 @@ public class Bag : MonoBehaviour
     private List<TrashController> bag;
 
     /// <summary>
+    /// Getter for maximum bag capacity.
+    /// </summary>
+    public int Capacity { get { return capacity; } }
+
+    /// <summary>
+    /// Getter for count of the underlying list.
+    /// </summary>
+    public int Count { get { return bag.Count; } }
+
+    /// <summary>
     /// Only allows the collection of trash if the bag is not at capacity.
     /// </summary>
     /// <param name="trash">

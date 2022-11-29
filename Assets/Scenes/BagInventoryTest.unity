@@ -2000,6 +2000,7 @@ GameObject:
   - component: {fileID: 503350509}
   - component: {fileID: 503350508}
   - component: {fileID: 503350507}
+  - component: {fileID: 503350511}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -2099,6 +2100,22 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &503350511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503350505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a169945d26594d54baed2efd5cb5c5f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bagCapacity: {fileID: 1168637634}
+  goRecycling: {fileID: 1963774221}
+  bag: {fileID: 1402523271}
+  arrow: {fileID: 1200625060}
 --- !u!4 &512711484 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 743d250f6e60be24e8664bf9bb6862b3, type: 3}
@@ -2153,6 +2170,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!1 &522200808 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 743d250f6e60be24e8664bf9bb6862b3, type: 3}
@@ -2207,6 +2225,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!1001 &526036141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2318,6 +2337,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!4 &537134926 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6aa1752d8bede0448b0eacb96361bcb3, type: 3}
@@ -2967,6 +2987,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -3557,6 +3578,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!1001 &827847080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3919,6 +3941,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!1001 &932458334
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4216,6 +4239,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!1001 &1017064500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4670,6 +4694,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!1001 &1125083877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4855,6 +4880,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!1001 &1145970724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5229,6 +5255,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!1 &1199463720 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 743d250f6e60be24e8664bf9bb6862b3, type: 3}
@@ -5283,6 +5310,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!1 &1200625060
 GameObject:
   m_ObjectHideFlags: 0
@@ -5440,6 +5468,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!1001 &1224600435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6217,7 +6246,6 @@ MonoBehaviour:
   reticle: {fileID: 1945873518}
   maxDistance: 3.5
   cam: {fileID: 598372536}
-  bag: {fileID: 0}
 --- !u!114 &1402523263 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8616685848737228376, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
@@ -6364,6 +6392,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e97b117638786f46be7988f40a9b5a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1402523271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402523260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4f424b6fdfd0b244bc25b0f18aa45ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  capacity: 10
 --- !u!1001 &1430916173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6882,6 +6923,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!1 &1539868138 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 743d250f6e60be24e8664bf9bb6862b3, type: 3}
@@ -6936,6 +6978,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!4 &1585052488 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6aa1752d8bede0448b0eacb96361bcb3, type: 3}
@@ -7588,6 +7631,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!1001 &1714463825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7699,6 +7743,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!1001 &1748864001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7820,6 +7865,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!1001 &1774453606
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8379,6 +8425,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!1001 &1913793558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9296,6 +9343,7 @@ MonoBehaviour:
   minDist: 0
   journeyTime: 0
   trashType: 0
+  recyclable: 0
 --- !u!1001 &2059126633
 PrefabInstance:
   m_ObjectHideFlags: 0
