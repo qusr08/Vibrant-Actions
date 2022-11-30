@@ -15,6 +15,9 @@ public class PlayerStateHandler : MonoBehaviour
 
     [SerializeField, Tooltip("The UI Manager.")]
     private UIManager uiManager;
+
+    [SerializeField, Tooltip("The audio manager.")]
+    private AudioManager audioManager;
     
     /// <summary>
     /// Flags whether the player is in proximity to be able to play the 
@@ -86,6 +89,11 @@ public class PlayerStateHandler : MonoBehaviour
         // Yes, probably not the cleanest way to handle passing the return value
         // to the UI Manager, but it'll have to do for now.
         uiManager.ChoiceCorrectOrIncorrect = recyclingGameManager.Validate(false);
+        // If the player has chosen correctly, play the collect sound effect
+        // This needs to be changed if we want to add more trash objects
+        if (uiManager.ChoiceCorrectOrIncorrect == "Correct") {
+            audioManager.PlayCollectSFX(TrashTypes.Cup);
+        }
     }
 
     /// <summary>
@@ -96,5 +104,10 @@ public class PlayerStateHandler : MonoBehaviour
         // Yes, probably not the cleanest way to handle passing the return value
         // to the UI Manager, but it'll have to do for now.
         uiManager.ChoiceCorrectOrIncorrect = recyclingGameManager.Validate(true);
+        // If the player has chosen correctly, play the collect sound effect
+        // This needs to be changed if we want to add more recyclable objects
+        if (uiManager.ChoiceCorrectOrIncorrect == "Correct") {
+            audioManager.PlayCollectSFX(TrashTypes.Bottle);
+        }
     }
 }

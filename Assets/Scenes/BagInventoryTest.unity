@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.38808668, g: 0.7278085, b: 0.7325042, a: 1}
+  m_IndirectSpecularColor: {r: 0.38810045, g: 0.7278148, b: 0.7324987, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6888,6 +6888,17 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 4462775258125794909, guid: 5ba115fc03543204ebe479aae3060eb3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5ba115fc03543204ebe479aae3060eb3, type: 3}
+--- !u!114 &1387118368 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4462775258125794905, guid: 5ba115fc03543204ebe479aae3060eb3, type: 3}
+  m_PrefabInstance: {fileID: 1387118367}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62cdff0e8ffc61e43860a15234f9c578, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1394276278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7199,6 +7210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   recyclingGameManager: {fileID: 81585531}
   uiManager: {fileID: 503350511}
+  audioManager: {fileID: 1387118368}
 --- !u!114 &1402523271
 MonoBehaviour:
   m_ObjectHideFlags: 0
