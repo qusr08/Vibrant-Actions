@@ -12,6 +12,12 @@ public class AudioManager : MonoBehaviour
     [SerializeField]
     public Sound[] sounds;
 
+    [Tooltip("Sound that plays when the correct receptacle is selected.")]
+    [SerializeField] private Sound correctSound;
+
+    [Tooltip("Sound that plays when the wrong receptacle is selected.")]
+    [SerializeField] private Sound incorrectSound;
+
     [Tooltip("Swoosh sound effects.")]
     [SerializeField] private Sound[] swooshSounds;
 
@@ -63,6 +69,23 @@ public class AudioManager : MonoBehaviour
     {
         //Play- name of clip
         Play("Theme");
+    }
+
+    /// <summary>
+    /// Plays the correct or incorrect sound effect.
+    /// </summary>
+    /// <param name="correct">
+    /// Whether the sound denoting a correct choice should be played. If set to 
+    /// false, the sound denoting an incorrect choice will be played instead.
+    /// </param>
+    public void PlayCorrectnessSFX(bool correct)
+    {
+        // Just pick any of the two audio sources to play the selected clip.
+        // It doesn't matter since we are using PlayOneShot() for this.
+        // We use PlayOneShot() because the clip should only play once, on top
+        // of everything else that is already playing.
+        if (correct) audioSources[0].PlayOneShot(correctSound.clip);
+        else audioSources[0].PlayOneShot(incorrectSound.clip);
     }
 
     /// <summary>

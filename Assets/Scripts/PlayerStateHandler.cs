@@ -91,8 +91,15 @@ public class PlayerStateHandler : MonoBehaviour
         uiManager.ChoiceCorrectOrIncorrect = recyclingGameManager.Validate(false);
         // If the player has chosen correctly, play the collect sound effect
         // This needs to be changed if we want to add more trash objects
+        // Also play the clip that tells the player they chose the correct bin.
         if (uiManager.ChoiceCorrectOrIncorrect == "Correct") {
+            audioManager.PlayCorrectnessSFX(true);
             audioManager.PlayCollectSFX(TrashTypes.Cup);
+        }
+        // Play the clip that tells the player they chose the wrong bin.
+        else
+        {
+            audioManager.PlayCorrectnessSFX(false);
         }
     }
 
@@ -106,8 +113,15 @@ public class PlayerStateHandler : MonoBehaviour
         uiManager.ChoiceCorrectOrIncorrect = recyclingGameManager.Validate(true);
         // If the player has chosen correctly, play the collect sound effect
         // This needs to be changed if we want to add more recyclable objects
+        // Also play the clip that tells the player they chose the correct bin.
         if (uiManager.ChoiceCorrectOrIncorrect == "Correct") {
+            audioManager.PlayCorrectnessSFX(true);
             audioManager.PlayCollectSFX(TrashTypes.Bottle);
+        }
+        // Play the clip that tells the player they chose the wrong bin.
+        else
+        {
+            audioManager.PlayCorrectnessSFX(false);
         }
     }
 }

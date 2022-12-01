@@ -7096,6 +7096,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4462775258125794905, guid: 5ba115fc03543204ebe479aae3060eb3, type: 3}
+      propertyPath: correctSound.clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 283c32a29582be34e9069ea4e3ba688c, type: 3}
+    - target: {fileID: 4462775258125794905, guid: 5ba115fc03543204ebe479aae3060eb3, type: 3}
+      propertyPath: correctSound.name
+      value: Correct
+      objectReference: {fileID: 0}
+    - target: {fileID: 4462775258125794905, guid: 5ba115fc03543204ebe479aae3060eb3, type: 3}
+      propertyPath: correctSound.pitch
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4462775258125794905, guid: 5ba115fc03543204ebe479aae3060eb3, type: 3}
+      propertyPath: correctSound.volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4462775258125794905, guid: 5ba115fc03543204ebe479aae3060eb3, type: 3}
+      propertyPath: incorrectSound.clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 013a71568960cc34c89957461535002a, type: 3}
+    - target: {fileID: 4462775258125794905, guid: 5ba115fc03543204ebe479aae3060eb3, type: 3}
+      propertyPath: incorrectSound.name
+      value: Incorrect
+      objectReference: {fileID: 0}
+    - target: {fileID: 4462775258125794905, guid: 5ba115fc03543204ebe479aae3060eb3, type: 3}
+      propertyPath: incorrectSound.volume
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4462775258125794906, guid: 5ba115fc03543204ebe479aae3060eb3, type: 3}
       propertyPath: m_RootOrder
       value: 3
