@@ -1029,8 +1029,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -1107,8 +1123,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (3)
@@ -1194,8 +1226,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -1333,8 +1381,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -1549,8 +1613,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -2368,13 +2448,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!1 &522200808 stripped
 GameObject:
@@ -2423,13 +2507,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!1001 &526036141
 PrefabInstance:
@@ -2535,13 +2623,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!4 &537134926 stripped
 Transform:
@@ -3216,8 +3308,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -3320,13 +3428,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!1 &705507993
 GameObject:
@@ -3447,8 +3559,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -3911,13 +4039,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!1001 &827847080
 PrefabInstance:
@@ -3944,8 +4076,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -4274,13 +4422,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!1001 &932458334
 PrefabInstance:
@@ -4649,13 +4801,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!1001 &1017064500
 PrefabInstance:
@@ -4870,8 +5026,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -5135,6 +5307,37 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 743d250f6e60be24e8664bf9bb6862b3, type: 3}
   m_PrefabInstance: {fileID: 1394276278}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1087196036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1087196037}
+  m_Layer: 0
+  m_Name: Trash Can Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1087196037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087196036}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.251, y: -0.837, z: -1.941}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1497046383}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1097609126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5239,13 +5442,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!1 &1119048643
 GameObject:
@@ -5502,13 +5709,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!1 &1142682006
 GameObject:
@@ -5877,13 +6088,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!1 &1199463720 stripped
 GameObject:
@@ -5932,13 +6147,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!1 &1200625060
 GameObject:
@@ -6090,13 +6309,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!1001 &1224600435
 PrefabInstance:
@@ -6176,8 +6399,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -6321,7 +6560,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1226421898}
   m_LocalRotation: {x: -0, y: 0.97236997, z: -0.23344536, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.4, z: 1.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6541,8 +6780,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -6700,8 +6955,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -7312,8 +7583,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -7406,8 +7693,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -7537,6 +7840,8 @@ Transform:
   - {fileID: 1490498766}
   - {fileID: 1226421901}
   - {fileID: 81585530}
+  - {fileID: 1087196037}
+  - {fileID: 1705408747}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7641,8 +7946,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -7813,13 +8134,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!1 &1539868138 stripped
 GameObject:
@@ -7868,13 +8193,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!4 &1585052488 stripped
 Transform:
@@ -8109,6 +8438,10 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 0.0043907166
       objectReference: {fileID: 0}
+    - target: {fileID: 4366991610782789907, guid: e1db49f5f848f664ca6591eaf5aa4673, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4431237305665726544, guid: e1db49f5f848f664ca6591eaf5aa4673, type: 3}
       propertyPath: m_Name
       value: Bins
@@ -8184,8 +8517,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -8401,8 +8750,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -8521,14 +8886,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
+--- !u!1 &1705408746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1705408747}
+  m_Layer: 0
+  m_Name: Recycling Can Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1705408747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705408746}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.252, y: -0.837, z: -1.9410048}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1497046383}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1714463825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8633,13 +9033,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!1001 &1748864001
 PrefabInstance:
@@ -8755,13 +9159,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!1001 &1774453606
 PrefabInstance:
@@ -9315,13 +9723,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!1001 &1913793558
 PrefabInstance:
@@ -9401,8 +9813,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (4)
@@ -9922,8 +10350,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (2)
@@ -10118,8 +10562,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (1)
@@ -10233,13 +10693,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 0}
   targets: []
   player: {fileID: 0}
   speed: 0
   minDist: 0
+  receptacleMinDist: 0
   journeyTime: 0
   trashType: 0
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
 --- !u!1001 &2059126633
 PrefabInstance:
@@ -10696,8 +11160,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: receptacleMinDist
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle

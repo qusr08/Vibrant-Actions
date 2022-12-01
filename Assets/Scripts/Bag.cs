@@ -56,8 +56,10 @@ public class Bag : MonoBehaviour
         // Explicitly check stack length to avoid exceptions being thrown.
         if (bag.Count > 0)
         {
-            bag.Pop();
-            UpdateBagUI( );
+            // Begin the animation for the trash object flying into the bin.
+            bag.Pop().Discard();
+
+            UpdateBagUI();
 
             // There is nothing left to recycle. Transition player back to
             // collection phase.

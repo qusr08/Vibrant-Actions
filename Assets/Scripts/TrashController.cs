@@ -19,6 +19,9 @@ public class TrashController : MonoBehaviour
 
     [Space]
 
+    [Tooltip("The camera active during the recycling minigame.")]
+    [SerializeField] private Camera recyclingCamera;
+
     [Tooltip("The trash area object. The sphere that surrounds a trash object.")]
     [SerializeField] private GameObject trashArea;
 
@@ -36,15 +39,29 @@ public class TrashController : MonoBehaviour
         "before it is deactivated in the Scene.")]
     [SerializeField][Min(0)] private float minDist;
 
+    [Tooltip("The minimum distance this trash object must be from the receptacle " +
+        "before it is deactivated in the Scene.")]
+    [SerializeField][Min(0)] private float receptacleMinDist;
+
     [Tooltip("Time to move from the initial position to the player, in seconds.")]
     [SerializeField][Min(0)] private float journeyTime;
 
     [Tooltip("The type of trash item this object is.")]
     [SerializeField] private TrashTypes trashType;
 
+    [Tooltip("Transform of the landfill receptacle.")]
+    [SerializeField] private Transform landfillReceptacle;
+
+    [Tooltip("Transform of the recycling receptacle.")]
+    [SerializeField] private Transform recyclingReceptacle;
+
     [Tooltip("Whether this trash object is recyclable.")]
-    [SerializeField]
-    private bool recyclable;
+    [SerializeField] private bool recyclable;
+
+    /// <summary>
+    /// Transform of the "correct" bin this trash object must be thrown into.
+    /// </summary>
+    private Transform correctReceptacle;
 
     /// <summary>
     /// Getter for whether this trash object is recyclable.
@@ -62,9 +79,16 @@ public class TrashController : MonoBehaviour
     private float startTime;
 
     /// <summary>
-    /// Used to identify when to start moving this trash object toward the player.
+    /// Used to identify when to start moving this trash object toward the 
+    /// player.
     /// </summary>
     private bool collected;
+
+    /// <summary>
+    /// Used to identify when to start moving this trash object toward the 
+    /// receptacle.
+    /// </summary>
+    private bool discarded;
 
     /// <summary>
     /// The type of this trash object.
@@ -74,6 +98,27 @@ public class TrashController : MonoBehaviour
     private void Start()
     {
         collected = false;
+
+        // Assign the destination that this trash object will "fly" towards
+        // during the recycling minigame. Assume that the trash object will
+        // never fly into an incorrect receptacle.
+        if (recyclable) correctReceptacle = recyclingReceptacle;
+        else correctReceptacle = landfillReceptacle;
+    }
+
+    /// <summary>
+    /// Called when this trash object is thrown into the correct receptacle.
+    /// </summary>
+    public void Discard()
+    {
+        gameObject.SetActive(true);
+
+        // Throw from the recycling camera's position
+        transform.position = recyclingCamera.transform.position;
+
+        // Begin the animation and get the time at which it starts.
+        discarded = true;
+        startTime = Time.time;
     }
 
     /// <summary>
@@ -112,38 +157,75 @@ public class TrashController : MonoBehaviour
 
     private void Update()
     {
-        // Only animate movement once the player clicks on this trash object.
         if (collected)
         {
-            // Move this trash object toward the player until it is close enough.
-            if ((transform.position - player.transform.position).magnitude > minDist)
+            // The player has clicked on this trash object during the collection phase.
+            if (!discarded)
             {
-                // The centre of the arc is the midpoint between this trash
-                // object and the player.
-                centre = (transform.position + player.transform.position) * 0.5f;
+                // Move this trash object toward the player until it is close enough.
+                if ((transform.position - player.transform.position).magnitude > minDist)
+                {
+                    // The centre of the arc is the midpoint between this trash
+                    // object and the player.
+                    centre = (transform.position + player.transform.position) * 0.5f;
 
-                // Move the centre downwards slightly to make the arc vertical.
-                centre -= new Vector3(0, 1, 0);
+                    // Move the centre downwards slightly to make the arc vertical.
+                    centre -= new Vector3(0, 1, 0);
 
-                // Interpolate over the arc relative to the centre.
-                Vector3 relCenter = transform.position - centre;
-                Vector3 playerRelCenter = player.transform.position - centre;
+                    // Interpolate over the arc relative to the centre.
+                    Vector3 relCenter = transform.position - centre;
+                    Vector3 playerRelCenter = player.transform.position - centre;
 
-                // The fraction of the animation that has happened so far is
-                // equal to the elapsed time divided by the desired time for
-                // the total journey.
-                float fracComplete = (Time.time - startTime) / journeyTime;
+                    // The fraction of the animation that has happened so far is
+                    // equal to the elapsed time divided by the desired time for
+                    // the total journey.
+                    float fracComplete = (Time.time - startTime) / journeyTime;
 
-                // Slerp treats initial and target vectors as directions rather
-                // than points in space.
-                transform.position = Vector3.Slerp(
-                    relCenter,
-                    playerRelCenter,
-                    fracComplete);
-                transform.position += centre;
+                    // Slerp treats initial and target vectors as directions rather
+                    // than points in space.
+                    transform.position = Vector3.Slerp(
+                        relCenter,
+                        playerRelCenter,
+                        fracComplete);
+                    transform.position += centre;
+                }
+                // Once it is close enough, deactivate it in the Scene.
+                else gameObject.SetActive(false);
             }
-            // Once it is close enough, deactivate it in the Scene.
-            else gameObject.SetActive(false);
+            // The player has thrown this trash object into the correct receptacle.
+            else
+            {
+                // Move this trash object toward the receptacle until it is close enough.
+                if ((transform.position - correctReceptacle.position).magnitude > receptacleMinDist)
+                {
+                    Debug.Log((transform.position - correctReceptacle.position).magnitude);
+                    // The centre of the arc is the midpoint between this trash
+                    // object and the correct receptacle.
+                    centre = (transform.position + correctReceptacle.position) * 0.5f;
+
+                    // Move the centre downwards slightly to make the arc vertical.
+                    centre -= new Vector3(0, 1, 0);
+
+                    // Interpolate over the arc relative to the centre.
+                    Vector3 relCenter = transform.position - centre;
+                    Vector3 receptacleRelCentre = correctReceptacle.position - centre;
+
+                    // The fraction of the animation that has happened so far is
+                    // equal to the elapsed time divided by the desired time for
+                    // the total journey.
+                    float fracComplete = (Time.time - startTime) / journeyTime;
+
+                    // Slerp treats initial and target vectors as directions rather
+                    // than points in space.
+                    transform.position = Vector3.Slerp(
+                        relCenter,
+                        receptacleRelCentre,
+                        fracComplete);
+                    transform.position += centre;
+                }
+                // Once it is close enough, deactivate it in the Scene.
+                else gameObject.SetActive(false);
+            }
         }
     }
 

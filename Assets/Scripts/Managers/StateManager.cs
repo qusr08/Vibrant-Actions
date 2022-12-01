@@ -144,6 +144,11 @@ public class StateManager : MonoBehaviour
                     // Show/hide relevant UI elements.
                     uiManager.HideCollectionUI();
                     uiManager.ShowRecyclingUI();
+
+                    // Hide the player capsule only, especially in the event
+                    // the player positions themselves in front of the recycling
+                    // camera before starting the recycling minigame.
+                    playerCapsule.GetComponentInChildren<MeshRenderer>().enabled = false;
                 }
 
                 break;
@@ -174,6 +179,9 @@ public class StateManager : MonoBehaviour
 
                     // Show/hide relevant UI elements.
                     uiManager.HideRecyclingUI();
+
+                    // Re-display the player capsule.
+                    playerCapsule.GetComponentInChildren<MeshRenderer>().enabled = true;
                 }
 
                 break;
