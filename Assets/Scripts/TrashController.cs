@@ -88,7 +88,7 @@ public class TrashController : MonoBehaviour
     /// Used to identify when to start moving this trash object toward the 
     /// receptacle.
     /// </summary>
-    private bool discarded;
+    public bool discarded;
 
     /// <summary>
     /// The type of this trash object.

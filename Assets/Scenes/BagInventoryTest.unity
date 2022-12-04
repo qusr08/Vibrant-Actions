@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.38810045, g: 0.7278148, b: 0.7324987, a: 1}
+  m_IndirectSpecularColor: {r: 0.38825688, g: 0.7281151, b: 0.73413026, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10162,7 +10162,7 @@ Transform:
   - {fileID: 429886553}
   - {fileID: 966569766}
   m_Father: {fileID: 1867372968}
-  m_RootOrder: 13
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1598415706 stripped
 Transform:
@@ -11595,6 +11595,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 503350506}
     m_Modifications:
+    - target: {fileID: 1004478325327772503, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
+      propertyPath: m_TagString
+      value: Instruct
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004478325403824988, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
+      propertyPath: m_TagString
+      value: Instruct
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004478325916032600, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
+      propertyPath: m_TagString
+      value: Instruct
+      objectReference: {fileID: 0}
     - target: {fileID: 1004478326454029066, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -11683,6 +11695,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Instructions
       objectReference: {fileID: 0}
+    - target: {fileID: 1004478326850446596, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
+      propertyPath: m_TagString
+      value: Instruct
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004478326974099277, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
+      propertyPath: m_TagString
+      value: Instruct
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004478327123707494, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
+      propertyPath: m_TagString
+      value: Instruct
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
 --- !u!224 &1805239602 stripped
@@ -11690,6 +11714,25 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1004478326454029066, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
   m_PrefabInstance: {fileID: 1805239601}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1805239603 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1004478326454029067, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
+  m_PrefabInstance: {fileID: 1805239601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1805239604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805239603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd6129b12e0d2c4b9b4926d2a11941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ui: []
+  collect: 0
 --- !u!1001 &1810278299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11936,6 +11979,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1592647828}
   - {fileID: 1166307548}
   - {fileID: 1986153313}
   - {fileID: 414509221}
@@ -11949,7 +11993,6 @@ Transform:
   - {fileID: 775235985}
   - {fileID: 286252046}
   - {fileID: 104377910}
-  - {fileID: 1592647828}
   - {fileID: 268465181}
   - {fileID: 1608717903}
   - {fileID: 1281924564}

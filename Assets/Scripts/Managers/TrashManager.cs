@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TrashManager : MonoBehaviour {
 	[Tooltip("Checking this box will force an update of the OnValidate method.")]
@@ -38,7 +39,7 @@ public class TrashManager : MonoBehaviour {
 	}
 
 	private void Start ( ) {
-		OnValidate( );
+		OnValidate( );  
 	}
 
 	private void Update ( ) {
@@ -46,6 +47,21 @@ public class TrashManager : MonoBehaviour {
 		// Do not need to update the radius (for right now) because that is not changing during the game
 		// Can be optimised by adding a "hasmoved" flag in the trash and only changing the position if that trash object has updated
 		UpdateTrashPositions( );
+
+		int dCount = 0;
+		for (int i = 0; i < TrashCount; i++)
+		{
+            if (TrashControllers[i].discarded)
+            {
+				dCount++;
+            }
+
+			//Check that all trash is collected and recycled, and move onto the Game Over Scene
+			if(dCount == TrashCount)
+            {
+				SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+			}
+		}
 	}
 
 	/// <summary>

@@ -10,6 +10,7 @@ TagManager:
   - Footsteps/Water
   - Footsteps/Wood
   - RecyclingTrigger
+  - Instruct
   layers:
   - Default
   - TransparentFX
