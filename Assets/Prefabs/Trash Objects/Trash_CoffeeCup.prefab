@@ -204,11 +204,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Radius: 2
+  recyclingCamera: {fileID: 0}
   trashArea: {fileID: 1578017800}
   targets: []
   player: {fileID: 0}
-  speed: 0
-  minDist: 0
-  journeyTime: 0
+  speed: 0.05
+  minDist: 0.5
+  receptacleMinDist: 0.5
+  journeyTime: 5
   trashType: 1
+  landfillReceptacle: {fileID: 0}
+  recyclingReceptacle: {fileID: 0}
   recyclable: 0
