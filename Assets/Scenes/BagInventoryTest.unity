@@ -321,6 +321,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -801,6 +817,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (11)
@@ -1059,6 +1091,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (6)
@@ -1535,6 +1583,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (10)
@@ -1887,6 +1951,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 52
@@ -2695,6 +2775,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (16)
@@ -2768,6 +2864,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -2966,6 +3078,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (1)
@@ -3028,6 +3156,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -3608,6 +3752,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -3742,6 +3902,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -4185,7 +4361,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &713823636
 PrefabInstance:
@@ -4405,6 +4581,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -4664,6 +4856,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (18)
@@ -4799,6 +5007,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -5189,6 +5413,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -5593,6 +5833,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -6175,6 +6431,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -6248,6 +6520,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -7586,29 +7874,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
-      propertyPath: speed
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
-      propertyPath: minDist
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
-      propertyPath: journeyTime
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
-    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
-      propertyPath: receptacleMinDist
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: landfillReceptacle
       value: 
@@ -7752,6 +8024,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 49
@@ -7814,6 +8102,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (9)
@@ -8353,6 +8657,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (20)
@@ -8550,6 +8870,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -8623,6 +8959,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (14)
@@ -8827,6 +9179,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (8)
@@ -9036,6 +9404,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (12)
@@ -9285,33 +9669,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
-      propertyPath: speed
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
-      propertyPath: minDist
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
-      propertyPath: trashType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
-      propertyPath: journeyTime
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
-    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
-      propertyPath: receptacleMinDist
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: landfillReceptacle
       value: 
@@ -9507,7 +9871,7 @@ Transform:
   - {fileID: 429886553}
   - {fileID: 966569766}
   m_Father: {fileID: 1867372968}
-  m_RootOrder: 51
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1598415706 stripped
 Transform:
@@ -9590,6 +9954,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (15)
@@ -10208,6 +10588,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (19)
@@ -10281,6 +10677,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -10359,6 +10771,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -11000,6 +11428,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -11212,12 +11656,12 @@ Transform:
   - {fileID: 1424185938}
   - {fileID: 2134076832}
   - {fileID: 1917509459}
+  - {fileID: 1592647828}
   - {fileID: 14892659}
   - {fileID: 790662012}
   - {fileID: 1611827387}
   - {fileID: 2090680802}
   - {fileID: 481437901}
-  - {fileID: 1592647828}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11348,6 +11792,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (13)
@@ -11421,6 +11881,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -12255,6 +12731,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -12328,6 +12820,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -12508,6 +13016,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (7)
@@ -12581,6 +13105,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -12654,6 +13194,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (5)
@@ -13185,7 +13741,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2080387433
 GameObject:
@@ -13339,6 +13895,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 50
@@ -13412,6 +13984,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (17)
@@ -13731,6 +14319,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingCamera
+      value: 
+      objectReference: {fileID: 1226421900}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacle
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacle
+      value: 
+      objectReference: {fileID: 1705408747}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (21)
