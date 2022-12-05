@@ -28,7 +28,7 @@ public class StateManager : MonoBehaviour
     private Camera mainCamera;
 
     [SerializeField, Tooltip("The camera active during the recycling minigame.")] 
-    private Camera recyclingCamera;
+    private Camera[] recyclingCameras;
 
     [SerializeField, Tooltip("The capsule representing the player character.")] 
     private GameObject playerCapsule;
@@ -39,7 +39,7 @@ public class StateManager : MonoBehaviour
     
     [SerializeField, Tooltip("The position the player resets to after exiting " +
         "the recycling minigame")] 
-    private GameObject recyclingPosition;
+    private GameObject[] recyclingPositions;
     
     [SerializeField, Tooltip("Reference to the Player Input component attached " +
         "to the player capsule")] 
@@ -95,7 +95,9 @@ public class StateManager : MonoBehaviour
         // phase for now.
         State = GameStates.Collecting;
 
-        recyclingCamera.enabled = false;
+        for (int i = 0; i < recyclingCameras.Length;i++) {
+            recyclingCameras[i].enabled = false;
+        }
     }
 
     // Update is called once per frame
@@ -124,10 +126,18 @@ public class StateManager : MonoBehaviour
                     // CharacterController attached, disable the CharacterController,
                     // move the object, then re-enable the CharacterController.
                     playerCapsule.GetComponent<CharacterController>().enabled = false;
+                    float minDistance = float.MaxValue;
+                    GameObject closestRecyclingPosition = recyclingPositions[0];
+                    for (int i = 1; i < recyclingPositions.Length; i++) {
+                        if (Vector3.Distance(recyclingPositions[i].transform.position, playerCapsule.transform.position) < minDistance) {
+                            minDistance = Vector3.Distance(recyclingPositions[i].transform.position, playerCapsule.transform.position);
+                            closestRecyclingPosition = recyclingPositions[i];
+                        }
+                    }
                     playerCapsule.transform.position = new Vector3(
-                        recyclingPosition.transform.position.x,
-                        recyclingPosition.transform.position.y,
-                        playerCapsule.transform.position.z);
+                        closestRecyclingPosition.transform.position.x,
+                        closestRecyclingPosition.transform.position.y,
+                        closestRecyclingPosition.transform.position.z);
                     playerCapsule.GetComponent<CharacterController>().enabled = true;
 
                     // Don't show the arrow during the recycling minigame
@@ -135,7 +145,17 @@ public class StateManager : MonoBehaviour
 
                     // Switch cameras.
                     mainCamera.enabled = !mainCamera.enabled;
-                    recyclingCamera.enabled = !recyclingCamera.enabled;
+                    minDistance = float.MaxValue;
+                    Camera closestRecyclingCamera = recyclingCameras[0];
+                    for (int i = 1; i < recyclingCameras.Length; i++) {
+                        if (Vector3.Distance(recyclingCameras[i].transform.position, playerCapsule.transform.position) < minDistance) {
+                            minDistance = Vector3.Distance(recyclingCameras[i].transform.position, playerCapsule.transform.position);
+                            closestRecyclingCamera = recyclingCameras[i];
+
+                            Debug.Log(recyclingCameras[i].transform.position);
+                        }
+                    }
+                    closestRecyclingCamera.enabled = !closestRecyclingCamera.enabled;
 
                     // Switch input action maps to listen for inputs relevant
                     // to the recycling minigame.
@@ -174,7 +194,15 @@ public class StateManager : MonoBehaviour
 
                     // Switch cameras.
                     mainCamera.enabled = !mainCamera.enabled;
-                    recyclingCamera.enabled = !recyclingCamera.enabled;
+                    float minDistance = float.MaxValue;
+                    Camera closestRecyclingCamera = recyclingCameras[0];
+                    for (int i = 1; i < recyclingCameras.Length; i++) {
+                        if (Vector3.Distance(recyclingCameras[i].transform.position, playerCapsule.transform.position) < minDistance) {
+                            minDistance = Vector3.Distance(recyclingCameras[i].transform.position, playerCapsule.transform.position);
+                            closestRecyclingCamera = recyclingCameras[i];
+                        }
+                    }
+                    closestRecyclingCamera.enabled = !closestRecyclingCamera.enabled;
                     //Debug.Log("player enabled");
 
                     // Show/hide relevant UI elements.

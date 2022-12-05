@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.38810045, g: 0.7278148, b: 0.7324987, a: 1}
+  m_IndirectSpecularColor: {r: 0.38808668, g: 0.7278085, b: 0.7325042, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -411,6 +411,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6aa1752d8bede0448b0eacb96361bcb3, type: 3}
+--- !u!1 &41562442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 41562443}
+  m_Layer: 0
+  m_Name: Trash Can Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &41562443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41562442}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.251, y: -0.837, z: -1.941}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 367809187}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &44384858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -434,6 +465,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -493,6 +556,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
   m_PrefabInstance: {fileID: 44384858}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &51819282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 51819283}
+  m_Layer: 0
+  m_Name: Recycling Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &51819283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51819282}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.009513855, y: -1.165, z: 1.447998}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 367809187}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &73761023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -906,6 +1000,37 @@ MonoBehaviour:
   - {fileID: 1418922878}
   - {fileID: 1096401090}
   - {fileID: 2143219231}
+--- !u!1 &144921663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 144921664}
+  m_Layer: 0
+  m_Name: Recycling Can Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &144921664
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144921663}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.252, y: -0.837, z: -1.9410048}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 345585914}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &160387227 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6aa1752d8bede0448b0eacb96361bcb3, type: 3}
@@ -934,6 +1059,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (11)
@@ -993,6 +1150,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
   m_PrefabInstance: {fileID: 164450261}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &175852287
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 175852288}
+  - component: {fileID: 175852289}
+  m_Layer: 0
+  m_Name: Recycling Trigger
+  m_TagString: RecyclingTrigger
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &175852288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175852287}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.506485, y: 1.1700001, z: -4.244995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 367809187}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &175852289
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175852287}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.2810397
+  m_Center: {x: 1.5337787, y: -2.7642035, z: 5.0790176}
 --- !u!1 &183041288
 GameObject:
   m_ObjectHideFlags: 0
@@ -1212,6 +1414,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (6)
@@ -1433,6 +1667,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -1531,6 +1797,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (3)
@@ -1638,6 +1936,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -1720,6 +2050,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (10)
@@ -1879,6 +2241,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -2096,6 +2490,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 52
@@ -2160,6 +2586,43 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6aa1752d8bede0448b0eacb96361bcb3, type: 3}
   m_PrefabInstance: {fileID: 629009839}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &345585913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 345585914}
+  m_Layer: 0
+  m_Name: Recycling Minigame Stuff (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &345585914
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345585913}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -79.34, y: 12.6, z: -112.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2014518451}
+  - {fileID: 1787014436}
+  - {fileID: 645479129}
+  - {fileID: 1244586458}
+  - {fileID: 1470015876}
+  - {fileID: 144921664}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &366790763
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2222,6 +2685,43 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8623164558921465253, guid: 2c962a2e9e8a90442a438ab6218002e1, type: 3}
   m_PrefabInstance: {fileID: 366790763}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &367809186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 367809187}
+  m_Layer: 0
+  m_Name: Recycling Minigame Stuff (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &367809187
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367809186}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -79.18, y: 12.6, z: -91.54}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 175852288}
+  - {fileID: 51819283}
+  - {fileID: 1962770101}
+  - {fileID: 1604525116}
+  - {fileID: 41562443}
+  - {fileID: 1944543077}
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &368921633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2265,6 +2765,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -2942,7 +3474,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4431237305665726544, guid: e1db49f5f848f664ca6591eaf5aa4673, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6175127003398185940, guid: e1db49f5f848f664ca6591eaf5aa4673, type: 3}
       propertyPath: m_RootOrder
@@ -3018,6 +3550,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (16)
@@ -3100,6 +3664,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -3318,6 +3914,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (1)
@@ -3400,6 +4028,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -3989,6 +4649,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -4120,6 +4812,90 @@ PrefabInstance:
       objectReference: {fileID: 1853616041}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+--- !u!1 &645479128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 645479129}
+  - component: {fileID: 645479131}
+  - component: {fileID: 645479130}
+  m_Layer: 0
+  m_Name: Recycling Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &645479129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645479128}
+  m_LocalRotation: {x: -0, y: 0.97236997, z: -0.23344536, w: 0}
+  m_LocalPosition: {x: 0, y: 0.4, z: 1.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 345585914}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 27, y: 180, z: 0}
+--- !u!81 &645479130
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645479128}
+  m_Enabled: 0
+--- !u!20 &645479131
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645479128}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!114 &645668829 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
@@ -4154,6 +4930,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -4381,6 +5189,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -4635,6 +5475,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -4808,6 +5680,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -5098,6 +6002,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (18)
@@ -5253,6 +6189,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -5428,6 +6396,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -5656,6 +6656,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -6058,6 +7090,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -6359,6 +7423,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -6664,6 +7760,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -6757,6 +7885,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -7575,6 +8735,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -7718,7 +8910,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1226421898}
   m_LocalRotation: {x: -0, y: 0.97236997, z: -0.23344536, w: 0}
-  m_LocalPosition: {x: 0, y: 0.4, z: 1.04}
+  m_LocalPosition: {x: 0.06, y: 0.4, z: 0.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7736,6 +8928,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65621bb948af5784aa84f3dc5357f74c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1244586457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1244586458}
+  - component: {fileID: 1244586459}
+  m_Layer: 0
+  m_Name: Recycling Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1244586458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244586457}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.0132341, z: -1.0443878}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 345585914}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1244586459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244586457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58b7798c958995f4fa1bec1c524f2bce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bag: {fileID: 1402523271}
 --- !u!1001 &1247633369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7967,6 +9204,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -8148,6 +9417,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -8299,6 +9600,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 49
@@ -8489,6 +9822,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (9)
@@ -9040,6 +10405,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (20)
@@ -9257,6 +10654,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -9350,6 +10779,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (14)
@@ -9463,6 +10924,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -9556,6 +11049,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (8)
@@ -9626,6 +11151,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65621bb948af5784aa84f3dc5357f74c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1470015875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1470015876}
+  m_Layer: 0
+  m_Name: Trash Can Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1470015876
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470015875}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.251, y: -0.837, z: -1.941}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 345585914}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1483129550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9665,6 +11221,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -9785,6 +11373,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (12)
@@ -9868,7 +11488,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497046382}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.413513, y: 12.6, z: -108.83}
+  m_LocalPosition: {x: -34.48, y: 12.6, z: -109.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10042,6 +11662,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -10240,6 +11892,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6aa1752d8bede0448b0eacb96361bcb3, type: 3}
   m_PrefabInstance: {fileID: 932458334}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1604525115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1604525116}
+  - component: {fileID: 1604525117}
+  m_Layer: 0
+  m_Name: Recycling Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1604525116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604525115}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.0132341, z: -1.0443878}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 367809187}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1604525117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604525115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58b7798c958995f4fa1bec1c524f2bce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bag: {fileID: 1402523271}
 --- !u!1001 &1605149444
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10332,6 +12029,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (15)
@@ -10597,6 +12326,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -10841,7 +12602,7 @@ Transform:
   - {fileID: 23255798}
   - {fileID: 476521363}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1650657006 stripped
 MonoBehaviour:
@@ -10964,6 +12725,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -11057,6 +12850,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (19)
@@ -11150,6 +12975,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -11259,6 +13116,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -11676,6 +13565,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6aa1752d8bede0448b0eacb96361bcb3, type: 3}
+--- !u!1 &1787014435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1787014436}
+  m_Layer: 0
+  m_Name: Recycling Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1787014436
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787014435}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.009513855, y: -1.165, z: 1.447998}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 345585914}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1799009627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12238,6 +14158,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -12476,7 +14428,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1873262941}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.1, y: 5.7885456, z: -70.39809}
+  m_LocalPosition: {x: -7.96, y: 5.7885456, z: -70.39809}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12617,6 +14569,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (13)
@@ -12710,6 +14694,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -12865,6 +14881,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (4)
@@ -13218,6 +15266,37 @@ Transform:
   m_Father: {fileID: 1646308163}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 5.779, z: 0}
+--- !u!1 &1944543076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1944543077}
+  m_Layer: 0
+  m_Name: Recycling Can Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1944543077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944543076}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.252, y: -0.837, z: -1.9410048}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 367809187}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1945873517
 GameObject:
   m_ObjectHideFlags: 0
@@ -13380,6 +15459,90 @@ PrefabInstance:
       objectReference: {fileID: 2800000, guid: c3fc283aa0eb2ac4dbf2e234343bb6a5, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4be443cc50afcd0478e5b4d4f2f6cb53, type: 3}
+--- !u!1 &1962770100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1962770101}
+  - component: {fileID: 1962770103}
+  - component: {fileID: 1962770102}
+  m_Layer: 0
+  m_Name: Recycling Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1962770101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962770100}
+  m_LocalRotation: {x: -0, y: 0.97236997, z: -0.23344536, w: 0}
+  m_LocalPosition: {x: 0, y: 0.4, z: 1.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 367809187}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 27, y: 180, z: 0}
+--- !u!81 &1962770102
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962770100}
+  m_Enabled: 0
+--- !u!20 &1962770103
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962770100}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!1 &1963774221
 GameObject:
   m_ObjectHideFlags: 0
@@ -13554,6 +15717,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (2)
@@ -13647,6 +15842,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -13740,6 +15967,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -13940,6 +16199,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (7)
@@ -14032,6 +16323,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65621bb948af5784aa84f3dc5357f74c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2014518450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2014518451}
+  - component: {fileID: 2014518452}
+  m_Layer: 0
+  m_Name: Recycling Trigger
+  m_TagString: RecyclingTrigger
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2014518451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014518450}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.506485, y: 1.1700001, z: -4.244995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 345585914}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2014518452
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014518450}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.2810397
+  m_Center: {x: 1.5337787, y: -2.7642035, z: 5.0790176}
 --- !u!1001 &2019860394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14055,6 +16391,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -14148,6 +16516,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (5)
@@ -14330,6 +16730,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (1)
@@ -14679,10 +17111,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiManager: {fileID: 503350511}
   mainCamera: {fileID: 598372536}
-  recyclingCamera: {fileID: 1226421900}
+  recyclingCameras:
+  - {fileID: 1226421900}
+  - {fileID: 645479131}
+  - {fileID: 1962770103}
   playerCapsule: {fileID: 1402523260}
   playerStateHandler: {fileID: 1402523270}
-  recyclingPosition: {fileID: 1490498765}
+  recyclingPositions:
+  - {fileID: 51819282}
+  - {fileID: 1787014435}
+  - {fileID: 1490498765}
   playerInput: {fileID: 1402523263}
   arrow: {fileID: 1200625060}
 --- !u!4 &2069174685
@@ -14785,7 +17223,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4431237305665726544, guid: e1db49f5f848f664ca6591eaf5aa4673, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6175127003398185940, guid: e1db49f5f848f664ca6591eaf5aa4673, type: 3}
       propertyPath: m_RootOrder
@@ -14872,6 +17310,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 50
@@ -14965,6 +17435,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (17)
@@ -15215,6 +17717,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
@@ -15304,6 +17838,38 @@ PrefabInstance:
       propertyPath: recyclingReceptacle
       value: 
       objectReference: {fileID: 1705408747}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1087196037}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1470015876}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: landfillReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 41562443}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1490498766}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1787014436}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: recyclingReceptacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 51819283}
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle (21)

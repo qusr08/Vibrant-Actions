@@ -50,10 +50,10 @@ public class TrashController : MonoBehaviour
     [SerializeField] private TrashTypes trashType;
 
     [Tooltip("Transform of the landfill receptacle.")]
-    [SerializeField] private Transform landfillReceptacle;
+    [SerializeField] private Transform[ ] landfillReceptacles;
 
     [Tooltip("Transform of the recycling receptacle.")]
-    [SerializeField] private Transform recyclingReceptacle;
+    [SerializeField] private Transform[] recyclingReceptacles;
 
     [Tooltip("Whether this trash object is recyclable.")]
     [SerializeField] private bool recyclable;
@@ -61,7 +61,7 @@ public class TrashController : MonoBehaviour
     /// <summary>
     /// Transform of the "correct" bin this trash object must be thrown into.
     /// </summary>
-    private Transform correctReceptacle;
+    private Transform closestCorrectReceptacle;
 
     /// <summary>
     /// Getter for whether this trash object is recyclable.
@@ -102,8 +102,8 @@ public class TrashController : MonoBehaviour
         // Assign the destination that this trash object will "fly" towards
         // during the recycling minigame. Assume that the trash object will
         // never fly into an incorrect receptacle.
-        if (recyclable) correctReceptacle = recyclingReceptacle;
-        else correctReceptacle = landfillReceptacle;
+        // if (recyclable) correctReceptacle = recyclingReceptacles;
+        // else correctReceptacle = landfillReceptacles;
     }
 
     /// <summary>
@@ -115,6 +115,26 @@ public class TrashController : MonoBehaviour
 
         // Throw from the recycling camera's position
         transform.position = recyclingCamera.transform.position;
+
+        // Find the closest recepticle
+        float minDistance = float.MaxValue;
+        if (recyclable) {
+            closestCorrectReceptacle = recyclingReceptacles[0];
+            for (int i = 1; i < recyclingReceptacles.Length;i++) {
+                if (Vector3.Distance(recyclingReceptacles[i].position, player.transform.position) < minDistance) {
+                    minDistance = Vector3.Distance(recyclingReceptacles[i].position, player.transform.position);
+                    closestCorrectReceptacle = recyclingReceptacles[i];
+                }
+			}
+        } else {
+            closestCorrectReceptacle = landfillReceptacles[0];
+            for (int i = 1; i < landfillReceptacles.Length; i++) {
+                if (Vector3.Distance(landfillReceptacles[i].position, player.transform.position) < minDistance) {
+                    minDistance = Vector3.Distance(landfillReceptacles[i].position, player.transform.position);
+                    closestCorrectReceptacle = landfillReceptacles[i];
+                }
+            }
+        }
 
         // Begin the animation and get the time at which it starts.
         discarded = true;
@@ -196,19 +216,19 @@ public class TrashController : MonoBehaviour
             else
             {
                 // Move this trash object toward the receptacle until it is close enough.
-                if ((transform.position - correctReceptacle.position).magnitude > receptacleMinDist)
+                if ((transform.position - closestCorrectReceptacle.position).magnitude > receptacleMinDist)
                 {
-                    Debug.Log((transform.position - correctReceptacle.position).magnitude);
+                   // Debug.Log((transform.position - closestCorrectReceptacle.position).magnitude);
                     // The centre of the arc is the midpoint between this trash
                     // object and the correct receptacle.
-                    centre = (transform.position + correctReceptacle.position) * 0.5f;
+                    centre = (transform.position + closestCorrectReceptacle.position) * 0.5f;
 
                     // Move the centre downwards slightly to make the arc vertical.
                     centre -= new Vector3(0, 1, 0);
 
                     // Interpolate over the arc relative to the centre.
                     Vector3 relCenter = transform.position - centre;
-                    Vector3 receptacleRelCentre = correctReceptacle.position - centre;
+                    Vector3 receptacleRelCentre = closestCorrectReceptacle.position - centre;
 
                     // The fraction of the animation that has happened so far is
                     // equal to the elapsed time divided by the desired time for
