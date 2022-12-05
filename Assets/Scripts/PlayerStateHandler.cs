@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEditor.Experimental.GraphView.Port;
 
 // Editors:				Szun Kidd Choi
 // Date Created:		11/24/22
@@ -18,6 +19,9 @@ public class PlayerStateHandler : MonoBehaviour
 
     [SerializeField, Tooltip("The audio manager.")]
     private AudioManager audioManager;
+
+    [SerializeField, Tooltip("The arrow pointing to the nearest piece of trash.")]
+    private Arrow arrow;
     
     /// <summary>
     /// Flags whether the player is in proximity to be able to play the 
@@ -123,5 +127,19 @@ public class PlayerStateHandler : MonoBehaviour
         {
             audioManager.PlayCorrectnessSFX(false);
         }
+    }
+
+    // I know this is not the best place to put this but for the sake of time
+    // it will have to do.
+    /// <summary>
+    /// Toggles the arrow UI on and off.
+    /// </summary>
+    /// <param name="toggleUIValue"></param>
+    private void OnToggle(InputValue toggleUIValue)
+    {
+        if (arrow.spriteRenderer.color.a != 0)
+            arrow.spriteRenderer.color = new Color(1, 1, 1, 0);
+        else
+            arrow.spriteRenderer.color = new Color(1, 1, 1, Arrow.Opacity);
     }
 }

@@ -32,12 +32,12 @@ public class Arrow : MonoBehaviour
     /// <summary>
     /// Sprite Renderer for the arrow sprite.
     /// </summary>
-    private SpriteRenderer spriteRenderer;
+    public SpriteRenderer spriteRenderer;
 
     /// <summary>
     /// The value at which to set the arrow sprite's alpha.
     /// </summary>
-    private const float Opacity = 0.5f;
+    public const float Opacity = 0.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -83,15 +83,5 @@ public class Arrow : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Toggles the arrow UI on and off.
-    /// </summary>
-    /// <param name="toggleUIValue"></param>
-    private void OnToggle(InputValue toggleUIValue)
-    {
-        if (spriteRenderer.color.a != 0)
-            spriteRenderer.color = new Color(1, 1, 1, 0);
-        else
-            spriteRenderer.color = new Color(1, 1, 1, Opacity);
-    }
+    
 }

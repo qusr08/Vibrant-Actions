@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.38825688, g: 0.7281151, b: 0.73413026, a: 1}
+  m_IndirectSpecularColor: {r: 0.38810045, g: 0.7278148, b: 0.7324987, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2910,6 +2910,10 @@ PrefabInstance:
     - target: {fileID: 4431237305665726544, guid: e1db49f5f848f664ca6591eaf5aa4673, type: 3}
       propertyPath: m_Name
       value: Bins (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431237305665726544, guid: e1db49f5f848f664ca6591eaf5aa4673, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6175127003398185940, guid: e1db49f5f848f664ca6591eaf5aa4673, type: 3}
       propertyPath: m_RootOrder
@@ -7431,6 +7435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashManager: {fileID: 124662869}
+  spriteRenderer: {fileID: 0}
 --- !u!4 &1216419897 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6aa1752d8bede0448b0eacb96361bcb3, type: 3}
@@ -8927,6 +8932,7 @@ MonoBehaviour:
   recyclingGameManager: {fileID: 81585531}
   uiManager: {fileID: 503350511}
   audioManager: {fileID: 1387118368}
+  arrow: {fileID: 1200625063}
 --- !u!114 &1402523271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14442,6 +14448,10 @@ PrefabInstance:
     - target: {fileID: 4431237305665726544, guid: e1db49f5f848f664ca6591eaf5aa4673, type: 3}
       propertyPath: m_Name
       value: Bins (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431237305665726544, guid: e1db49f5f848f664ca6591eaf5aa4673, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6175127003398185940, guid: e1db49f5f848f664ca6591eaf5aa4673, type: 3}
       propertyPath: m_RootOrder
