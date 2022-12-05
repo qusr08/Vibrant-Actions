@@ -11343,6 +11343,10 @@ PrefabInstance:
       value: Instruct
       objectReference: {fileID: 0}
     - target: {fileID: 1004478325403824978, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
+      propertyPath: m_text
+      value: You can carry 10 pieces of trash at a time
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004478325403824978, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
       propertyPath: m_fontSize
       value: 50
       objectReference: {fileID: 0}
@@ -11699,6 +11703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ui: []
   showedInstructions0to3: 0
+  finishedShowingInstructions0to3: 0
   collectedFirstPieceOfTrash: 0
   goneRecycling: 0
   finishedFirstRecyclingRun: 0

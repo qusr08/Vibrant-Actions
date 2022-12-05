@@ -145,7 +145,8 @@ public class ReticleRaycast : MonoBehaviour
             // is not already full.
             if (bag.Collect(tc))
             {
-                if (!showUI.collectedFirstPieceOfTrash)
+                if (!showUI.collectedFirstPieceOfTrash
+                    && showUI.finishedShowingInstructions0to3)
                 {
                     showUI.collectedFirstPieceOfTrash = true;
                     StartCoroutine(showUI.ShowInstructions4to6());

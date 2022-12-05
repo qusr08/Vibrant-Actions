@@ -7,6 +7,7 @@ public class ShowUI : MonoBehaviour
 {
     public List<GameObject> ui = new List <GameObject>();
     public bool showedInstructions0to3;
+    public bool finishedShowingInstructions0to3;
     public bool collectedFirstPieceOfTrash;
     public bool goneRecycling;
     public bool finishedFirstRecyclingRun;
@@ -55,6 +56,8 @@ public class ShowUI : MonoBehaviour
         // --> Position the reticle on the trash, then CLICK to pick it up
         ui[2].SetActive(false);
         ui[3].SetActive(true);
+
+        finishedShowingInstructions0to3 = true;
     }
 
     public IEnumerator ShowInstructions4to6()
