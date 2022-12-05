@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028328, g: 0.22571322, b: 0.30692163, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -386,6 +386,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 523550763928509696, guid: 8ac8770286762d54d9ad03539b1b274e, type: 3}
+      propertyPath: m_text
+      value: "-WASD to move\n-Mouse to look around\n-Move near trash and CLICK to
+        pick it up. \nMake sure the reticle is positioned on the trash.\n-Empty trash
+        in the bin when the bag in full\n- You can only carry 10 pieces of trash
+        at a time\n- When your bag is full, empty it out at bins\n- Walk up to a
+        pair of bins and press ENTER\n- When at bins, press A to dispose the current
+        \npiece of trash in the landfill bin. Press D to \nthrow it in the recycling
+        bin."
+      objectReference: {fileID: 0}
     - target: {fileID: 2425522053404334570, guid: 8ac8770286762d54d9ad03539b1b274e, type: 3}
       propertyPath: m_fontSize
       value: 50
@@ -500,19 +510,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2810071959232218137, guid: 8ac8770286762d54d9ad03539b1b274e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -142
+      value: -176.8
       objectReference: {fileID: 0}
     - target: {fileID: 2810071959237022212, guid: 8ac8770286762d54d9ad03539b1b274e, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4178422917782140178, guid: 8ac8770286762d54d9ad03539b1b274e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273651147175616203, guid: 8ac8770286762d54d9ad03539b1b274e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 257
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273651147175616203, guid: 8ac8770286762d54d9ad03539b1b274e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 256.2
+      objectReference: {fileID: 0}
     - target: {fileID: 5273651147175616203, guid: 8ac8770286762d54d9ad03539b1b274e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -39
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5273651147175616203, guid: 8ac8770286762d54d9ad03539b1b274e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 62
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 5768497045082287231, guid: 8ac8770286762d54d9ad03539b1b274e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -520,7 +542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5768497045082287231, guid: 8ac8770286762d54d9ad03539b1b274e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 144
+      value: 173.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ac8770286762d54d9ad03539b1b274e, type: 3}

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.38808668, g: 0.7278085, b: 0.7325042, a: 1}
+  m_IndirectSpecularColor: {r: 0.38810045, g: 0.7278148, b: 0.7324987, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -453,6 +453,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -1048,6 +1052,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -1403,6 +1411,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -1649,7 +1661,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -1779,7 +1791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -1918,7 +1930,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -2038,6 +2050,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -2223,7 +2239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -2478,6 +2494,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -2747,7 +2767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -3539,6 +3559,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -3652,6 +3676,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -3903,6 +3931,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -4016,6 +4048,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -4638,6 +4674,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -4919,6 +4959,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -5171,7 +5215,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -5457,7 +5501,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -5668,6 +5712,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -5991,6 +6039,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -6177,6 +6229,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -6378,7 +6434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -6644,6 +6700,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -7079,6 +7139,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -7405,7 +7469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -7730,7 +7794,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087196036}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.251, y: -0.837, z: -1.941}
+  m_LocalPosition: {x: 0.251, y: -0.837, z: -1.676}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7748,6 +7812,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -7873,6 +7941,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -8717,7 +8789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -8770,6 +8842,10 @@ PrefabInstance:
     - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_Name
       value: Trash_Bottle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082289795227117599, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_RootOrder
@@ -9186,7 +9262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -9406,6 +9482,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -9588,6 +9668,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -9810,6 +9894,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -10394,6 +10482,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -10643,6 +10735,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -10767,6 +10863,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -10906,7 +11006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -11037,6 +11137,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -11203,7 +11307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -11361,6 +11465,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -11650,6 +11758,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -12018,6 +12130,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -12308,7 +12424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -12707,7 +12823,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -12839,6 +12955,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -12963,6 +13083,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -13105,6 +13229,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -13242,7 +13370,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1705408746}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.252, y: -0.837, z: -1.9410048}
+  m_LocalPosition: {x: -0.252, y: -0.837, z: -1.638}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14147,6 +14275,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -14558,6 +14690,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -14682,6 +14818,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -14863,7 +15003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -15699,7 +15839,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -15831,6 +15971,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -15955,6 +16099,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -16188,6 +16336,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -16380,6 +16532,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -16504,6 +16660,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -16712,7 +16872,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -17299,6 +17459,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
       value: 
       objectReference: {fileID: 1226421900}
@@ -17423,6 +17587,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
@@ -17699,7 +17867,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -17826,6 +17994,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: journeyTime
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
       value: 
