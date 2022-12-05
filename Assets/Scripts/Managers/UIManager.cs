@@ -71,18 +71,21 @@ public class UIManager : MonoBehaviour {
     /// </summary>
     public void UpdateCollectionUI()
     {
-        // Bag is full. Tell player to go recycling and hide arrow.
-        if (bag.Full)
+        if (goRecycling)
         {
-            goRecycling.SetActive(true);
-            arrow.SetActive(false);
-        }
-        // Bag is not full. Hide text telling player to go recycling and
-        // display the arrow.
-        else
-        {
-            goRecycling.SetActive(false);
-            arrow.SetActive(true);
+            // Bag is full. Tell player to go recycling and hide arrow.
+            if (bag.Full)
+            {
+                goRecycling.SetActive(true);
+                arrow.SetActive(false);
+            }
+            // Bag is not full. Hide text telling player to go recycling and
+            // display the arrow.
+            else
+            {
+                goRecycling.SetActive(false);
+                arrow.SetActive(true);
+            }
         }
     }
 

@@ -71,6 +71,9 @@ public class ReticleRaycast : MonoBehaviour
     /// </summary>
     private int layerMask;
 
+    [SerializeField, Tooltip("The ShowUI script.")]
+    private ShowUI showUI;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -142,6 +145,12 @@ public class ReticleRaycast : MonoBehaviour
             // is not already full.
             if (bag.Collect(tc))
             {
+                if (!showUI.collectedFirstPieceOfTrash)
+                {
+                    showUI.collectedFirstPieceOfTrash = true;
+                    StartCoroutine(showUI.ShowInstructions4to6());
+                }
+
                 tc.Collect();
                 AudioManager.instance.PlayCollectSFX(tc.TrashType);
             }

@@ -22,6 +22,9 @@ public class PlayerStateHandler : MonoBehaviour
 
     [SerializeField, Tooltip("The arrow pointing to the nearest piece of trash.")]
     private Arrow arrow;
+
+    [SerializeField, Tooltip("The ShowUI script.")]
+    private ShowUI showUI;
     
     /// <summary>
     /// Flags whether the player is in proximity to be able to play the 
@@ -64,6 +67,12 @@ public class PlayerStateHandler : MonoBehaviour
     public void SwitchToCollecting()
     {
         State = GameStates.Collecting;
+
+        if (!showUI.finishedFirstRecyclingRun)
+        {
+            showUI.finishedFirstRecyclingRun = true;
+            StartCoroutine(showUI.ShowInstructions8());
+        }
     }
 
     /// <summary>
@@ -72,8 +81,16 @@ public class PlayerStateHandler : MonoBehaviour
     /// </summary>
     private void OnEnableRecycling(InputValue enableRecyclingValue)
     {
-        if (inRecyclingTrigger && !GetComponent<Bag>().Empty) 
+        if (inRecyclingTrigger && !GetComponent<Bag>().Empty)
+        {
             State = GameStates.Recycling;
+
+            if (!showUI.goneRecycling)
+            {
+                showUI.goneRecycling = true;
+                showUI.ShowInstructions7();
+            }
+        }
     }
 
     /// <summary>
@@ -141,5 +158,15 @@ public class PlayerStateHandler : MonoBehaviour
             arrow.spriteRenderer.color = new Color(1, 1, 1, 0);
         else
             arrow.spriteRenderer.color = new Color(1, 1, 1, Arrow.Opacity);
+    }
+
+    private void OnMove(InputValue moveValue)
+    {
+        //showUI.ShowInstructions();
+        if (!showUI.showedInstructions0to3)
+        {
+            showUI.showedInstructions0to3 = true;
+            StartCoroutine(showUI.ShowInstructions0to3());
+        }
     }
 }

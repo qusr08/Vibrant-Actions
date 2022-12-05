@@ -59,6 +59,8 @@ public class TrashManager : MonoBehaviour {
 			//Check that all trash is collected and recycled, and move onto the Game Over Scene
 			if(dCount == TrashCount)
             {
+				Cursor.visible = true;
+				Cursor.lockState = CursorLockMode.None;
 				SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 			}
 		}
