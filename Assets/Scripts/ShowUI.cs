@@ -63,7 +63,7 @@ public class ShowUI : MonoBehaviour
     public IEnumerator ShowInstructions4to6()
     {
         // Position the reticle on the trash, then CLICK to pick it up
-        // --> You can only carry around 10 pieces of trash at a time
+        // --> You can only carry 10 pieces of trash at a time
         ui[3].SetActive(false);
         ui[4].SetActive(true);
         yield return new WaitForSeconds(3.0f);
