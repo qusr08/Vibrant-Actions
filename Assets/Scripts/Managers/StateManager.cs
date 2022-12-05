@@ -127,8 +127,8 @@ public class StateManager : MonoBehaviour
                     // move the object, then re-enable the CharacterController.
                     playerCapsule.GetComponent<CharacterController>().enabled = false;
                     float minDistance = float.MaxValue;
-                    GameObject closestRecyclingPosition = recyclingPositions[0];
-                    for (int i = 1; i < recyclingPositions.Length; i++) {
+                    GameObject closestRecyclingPosition = null;
+                    for (int i = 0; i < recyclingPositions.Length; i++) {
                         if (Vector3.Distance(recyclingPositions[i].transform.position, playerCapsule.transform.position) < minDistance) {
                             minDistance = Vector3.Distance(recyclingPositions[i].transform.position, playerCapsule.transform.position);
                             closestRecyclingPosition = recyclingPositions[i];
@@ -146,13 +146,11 @@ public class StateManager : MonoBehaviour
                     // Switch cameras.
                     mainCamera.enabled = !mainCamera.enabled;
                     minDistance = float.MaxValue;
-                    Camera closestRecyclingCamera = recyclingCameras[0];
-                    for (int i = 1; i < recyclingCameras.Length; i++) {
+                    Camera closestRecyclingCamera = null;
+                    for (int i = 0; i < recyclingCameras.Length; i++) {
                         if (Vector3.Distance(recyclingCameras[i].transform.position, playerCapsule.transform.position) < minDistance) {
                             minDistance = Vector3.Distance(recyclingCameras[i].transform.position, playerCapsule.transform.position);
                             closestRecyclingCamera = recyclingCameras[i];
-
-                            Debug.Log(recyclingCameras[i].transform.position);
                         }
                     }
                     closestRecyclingCamera.enabled = !closestRecyclingCamera.enabled;
@@ -195,8 +193,8 @@ public class StateManager : MonoBehaviour
                     // Switch cameras.
                     mainCamera.enabled = !mainCamera.enabled;
                     float minDistance = float.MaxValue;
-                    Camera closestRecyclingCamera = recyclingCameras[0];
-                    for (int i = 1; i < recyclingCameras.Length; i++) {
+                    Camera closestRecyclingCamera = null;
+                    for (int i = 0; i < recyclingCameras.Length; i++) {
                         if (Vector3.Distance(recyclingCameras[i].transform.position, playerCapsule.transform.position) < minDistance) {
                             minDistance = Vector3.Distance(recyclingCameras[i].transform.position, playerCapsule.transform.position);
                             closestRecyclingCamera = recyclingCameras[i];

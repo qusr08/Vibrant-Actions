@@ -118,17 +118,16 @@ public class TrashController : MonoBehaviour
 
         // Find the closest recepticle
         float minDistance = float.MaxValue;
+        closestCorrectReceptacle = null;
         if (recyclable) {
-            closestCorrectReceptacle = recyclingReceptacles[0];
-            for (int i = 1; i < recyclingReceptacles.Length;i++) {
+            for (int i = 0; i < recyclingReceptacles.Length;i++) {
                 if (Vector3.Distance(recyclingReceptacles[i].position, player.transform.position) < minDistance) {
                     minDistance = Vector3.Distance(recyclingReceptacles[i].position, player.transform.position);
                     closestCorrectReceptacle = recyclingReceptacles[i];
                 }
 			}
         } else {
-            closestCorrectReceptacle = landfillReceptacles[0];
-            for (int i = 1; i < landfillReceptacles.Length; i++) {
+            for (int i = 0; i < landfillReceptacles.Length; i++) {
                 if (Vector3.Distance(landfillReceptacles[i].position, player.transform.position) < minDistance) {
                     minDistance = Vector3.Distance(landfillReceptacles[i].position, player.transform.position);
                     closestCorrectReceptacle = landfillReceptacles[i];
