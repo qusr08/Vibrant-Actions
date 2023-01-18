@@ -52,34 +52,53 @@ public class Arrow : MonoBehaviour
 	// Update is called once per frame
 	void Update()
     {
+        nearest = null;
+
         if (trashManager.TrashCount > 0)
         {
-            // Grab the first object in the enumerable and use that for
+            // Grab the first active object in the enumerable and use that for
             // comparison for the first loop iteration.
-            nearest = trashManager.TrashControllers[0];
-            nearestVec = nearest.transform.position - transform.position;
-
-            // Loop through the trash objects to find the closest object
-            for (int i = 0; i < trashManager.TrashCount; i++) {
-                // If the piece of trash is not active (as in it has already been collected), do not try and point the arrow towards it
-                if (!trashManager.TrashControllers[i].gameObject.activeSelf) {
-                    continue;
-                }
-
-                // Get the distance between the current trash and the arrow position
-                // Then check to see if that distance is less than the minimum distance found so far
-                currentVec = trashManager.TrashControllers[i].transform.position - transform.position;
-                if (currentVec.magnitude < nearestVec.magnitude) {
-                    nearestVec = currentVec;
+            for (int i = 0; i < trashManager.TrashCount; i++)
+            {
+                if (trashManager.TrashControllers[i].gameObject.activeSelf)
+                {
+                    nearest = trashManager.TrashControllers[i];
+                    break;
                 }
             }
 
-            // Compute the angle at which to rotate the arrow to produce a
-            // compass-like effect.
-            float angle = Mathf.Atan2(nearestVec.x, nearestVec.z) * Mathf.Rad2Deg + 180;
+            //nearest = trashManager.TrashControllers[0];
+
+            if (nearest)
+            {
+                nearestVec = nearest.transform.position - transform.position;
+
+                // Loop through the trash objects to find the closest object
+                for (int i = 0; i < trashManager.TrashCount; i++) {
+                    // If the piece of trash is not active (as in it has already been collected), do not try and point the arrow towards it
+                    if (!trashManager.TrashControllers[i].gameObject.activeSelf) {
+                        continue;
+                    }
+
+                    // Get the distance between the current trash and the arrow position
+                    // Then check to see if that distance is less than the minimum distance found so far
+                    currentVec = trashManager.TrashControllers[i].transform.position - transform.position;
+                    if (currentVec.magnitude < nearestVec.magnitude) {
+                        nearestVec = currentVec;
+                    }
+                }
+
+                // Compute the angle at which to rotate the arrow to produce a
+                // compass-like effect.
+                float angle = Mathf.Atan2(nearestVec.x, nearestVec.z) * Mathf.Rad2Deg + 180;
             
-            // Rotate the arrow.
-            transform.eulerAngles = new Vector3(-90, 0, angle);
+                // Rotate the arrow.
+                transform.eulerAngles = new Vector3(-90, 0, angle);
+            }
+            //else
+            //{
+            //    Debug.Log("all objects collected");
+            //}
         }
     }
 
