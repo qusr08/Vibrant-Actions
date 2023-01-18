@@ -113,8 +113,10 @@ public class TrashController : MonoBehaviour
     {
         gameObject.SetActive(true);
 
-        // Throw from the recycling camera's position
-        transform.position = recyclingCamera.transform.position;
+        // Throw from the currently-active recycling camera's position
+        transform.position = FindObjectOfType<Camera>().transform.position;
+
+        //transform.position = recyclingCamera.transform.position;
 
         // Find the closest recepticle
         float minDistance = float.MaxValue;
@@ -217,7 +219,7 @@ public class TrashController : MonoBehaviour
                 // Move this trash object toward the receptacle until it is close enough.
                 if ((transform.position - closestCorrectReceptacle.position).magnitude > receptacleMinDist)
                 {
-                   // Debug.Log((transform.position - closestCorrectReceptacle.position).magnitude);
+                    // Debug.Log((transform.position - closestCorrectReceptacle.position).magnitude);
                     // The centre of the arc is the midpoint between this trash
                     // object and the correct receptacle.
                     centre = (transform.position + closestCorrectReceptacle.position) * 0.5f;
