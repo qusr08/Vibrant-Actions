@@ -39,6 +39,9 @@ public class PlayerStateHandler : MonoBehaviour
 
     private void Start()
     {
+        // Modify volume based on slider in settings menu.
+        GetComponent<AudioSource>().volume = 0.15f * PersistentData.Instance.musicVolume;
+        
         inRecyclingTrigger = false;
     }
 

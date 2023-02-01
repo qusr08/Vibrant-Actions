@@ -67,6 +67,12 @@ public class AudioManager : MonoBehaviour
     //Play the theme at the start of the game
     void Start()
     {
+        // Modify volume based on slider in settings menu.
+        foreach (AudioSource audioSource in audioSources)
+        {
+            audioSource.volume = 0.4f * PersistentData.Instance.sfxVolume;
+        }
+
         //Play- name of clip
         Play("Theme");
     }
