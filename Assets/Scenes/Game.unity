@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &10389634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 634774810775464659, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
+  m_PrefabInstance: {fileID: 1805239601}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &14892658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -450,12 +455,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -506,8 +515,16 @@ PrefabInstance:
       value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -103.98
+      value: -103.979996
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -515,7 +532,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.33
+      value: -17.330002
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -718,6 +735,11 @@ MonoBehaviour:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6aa1752d8bede0448b0eacb96361bcb3, type: 3}
   m_PrefabInstance: {fileID: 1714463825}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &87946188 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1004478325327772503, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
+  m_PrefabInstance: {fileID: 1805239601}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &92016860
 PrefabInstance:
@@ -1195,12 +1217,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -1259,20 +1285,32 @@ PrefabInstance:
       value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -106.23
+      value: -106.229996
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.249
+      value: 5.2490005
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -46.62
+      value: -46.619995
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6297601
+      value: 0.62976
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1280,7 +1318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.32156235
+      value: -0.32156238
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1554,12 +1592,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -1618,6 +1660,14 @@ PrefabInstance:
       value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -102.25
       objectReference: {fileID: 0}
@@ -1663,6 +1713,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
   m_PrefabInstance: {fileID: 203672452}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &214296780 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1004478326974099277, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
+  m_PrefabInstance: {fileID: 1805239601}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &216765690
 PrefabInstance:
@@ -1808,7 +1863,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -1863,12 +1918,20 @@ PrefabInstance:
       value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -58.95
+      value: -58.94999
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.3813
+      value: 6.381301
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1880,7 +1943,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1938,7 +2001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -2001,12 +2064,24 @@ PrefabInstance:
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -60.713924
+      value: -60.713917
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.330781
+      value: 6.330783
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2014,19 +2089,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.42378485
+      value: -0.4237849
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.5620017
+      value: -0.56200176
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.56715125
+      value: -0.5671513
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.42766795
+      value: -0.42766798
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2077,7 +2152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -2132,12 +2207,20 @@ PrefabInstance:
       value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -54.7
+      value: -54.699986
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.3825
+      value: 6.3825026
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2149,7 +2232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.y
@@ -2194,12 +2277,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -2258,6 +2345,18 @@ PrefabInstance:
       value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -109.935
       objectReference: {fileID: 0}
@@ -2267,15 +2366,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -43.619
+      value: -43.619003
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.041907262
+      value: -0.041907266
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.70586383
+      value: -0.7058638
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.y
@@ -2283,7 +2382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.04190749
+      value: -0.041907493
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2386,7 +2485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -2441,24 +2540,32 @@ PrefabInstance:
       value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -46.170002
+      value: -46.169983
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.2514544
+      value: 5.2514524
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -20.052774
+      value: -20.052773
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.6706908
+      value: -0.67069083
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.6706908
+      value: 0.67069083
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.y
@@ -2466,7 +2573,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.2239952
+      value: -0.22399518
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2638,12 +2745,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -2694,6 +2805,14 @@ PrefabInstance:
       value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -121.08
       objectReference: {fileID: 0}
@@ -2703,7 +2822,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.67
+      value: -11.669998
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2964,7 +3083,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -3019,8 +3138,16 @@ PrefabInstance:
       value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -36.924
+      value: -36.92398
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3028,7 +3155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -40.09
+      value: -40.089996
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3036,7 +3163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.y
@@ -3144,6 +3271,11 @@ Transform:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 597308369130767402, guid: 2f7f3dde7ae722a4aafffe20691ad702, type: 3}
   m_PrefabInstance: {fileID: 2059126633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &406905737 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1991082667667558188, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
+  m_PrefabInstance: {fileID: 1805239601}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &414509220
 PrefabInstance:
@@ -3803,12 +3935,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -3867,6 +4003,14 @@ PrefabInstance:
       value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -122.2
       objectReference: {fileID: 0}
@@ -3876,7 +4020,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -24.08
+      value: -24.080002
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3921,12 +4065,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -3983,6 +4131,14 @@ PrefabInstance:
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_RootOrder
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4175,12 +4331,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -4239,6 +4399,18 @@ PrefabInstance:
       value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -95.18353
       objectReference: {fileID: 0}
@@ -4252,7 +4424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6297601
+      value: 0.62976
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4260,7 +4432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.32156235
+      value: -0.32156238
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.z
@@ -4293,12 +4465,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -4349,12 +4525,20 @@ PrefabInstance:
       value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -106.852
+      value: -106.85199
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.386
+      value: 6.3859997
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5014,12 +5198,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -5070,8 +5258,16 @@ PrefabInstance:
       value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -97.639
+      value: -97.63899
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5079,7 +5275,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -14.49
+      value: -14.489998
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5339,12 +5535,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -5395,6 +5595,14 @@ PrefabInstance:
       value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -101.743
       objectReference: {fileID: 0}
@@ -5404,7 +5612,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -52.2
+      value: -52.199997
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5412,11 +5620,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.39157146
+      value: -0.39157143
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.34777543
+      value: -0.34777546
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.z
@@ -5673,7 +5881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -5736,12 +5944,20 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -55.48
+      value: -55.47999
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.2149696
+      value: 5.2149687
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5974,7 +6190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -6029,24 +6245,32 @@ PrefabInstance:
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -53.04787
+      value: -53.04786
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.2514544
+      value: 5.2514563
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -33.30277
+      value: -33.302765
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.6706908
+      value: -0.67069083
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.6706908
+      value: 0.67069083
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.y
@@ -6054,7 +6278,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.2239952
+      value: -0.22399518
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6204,12 +6428,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -6260,16 +6488,24 @@ PrefabInstance:
       value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -109.96
+      value: -109.95999
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.386
+      value: 6.3859997
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -55.38
+      value: -55.380005
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6318,6 +6554,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6aa1752d8bede0448b0eacb96361bcb3, type: 3}
   m_PrefabInstance: {fileID: 254827891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &774372518 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1004478327123707494, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
+  m_PrefabInstance: {fileID: 1805239601}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &775235984
 PrefabInstance:
@@ -6581,12 +6822,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -6645,6 +6890,14 @@ PrefabInstance:
       value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -130.79
       objectReference: {fileID: 0}
@@ -6654,7 +6907,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -16.77
+      value: -16.770004
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6690,6 +6943,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
   m_PrefabInstance: {fileID: 796186279}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &797139584 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1004478326850446596, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
+  m_PrefabInstance: {fileID: 1805239601}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &803338244
 PrefabInstance:
@@ -6761,12 +7019,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -6817,16 +7079,24 @@ PrefabInstance:
       value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -94.41
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.386
+      value: 6.3860006
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -56.56
+      value: -56.559998
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6933,6 +7203,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5574810481484352165, guid: 05609ba3413846f4bbfd00d765059f1b, type: 3}
   m_PrefabInstance: {fileID: 816989414}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &817923002 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1004478327312151891, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
+  m_PrefabInstance: {fileID: 1805239601}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &819084914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7020,7 +7295,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -7075,8 +7350,12 @@ PrefabInstance:
       value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -59.0091
+      value: -59.00909
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7088,19 +7367,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.74193937
+      value: 0.7419394
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.068715155
+      value: -0.06871516
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.061505526
+      value: -0.061505534
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.66409427
+      value: 0.6640943
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7357,12 +7636,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -7413,16 +7696,24 @@ PrefabInstance:
       value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -102.52
+      value: -102.51999
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.386
+      value: 6.3859997
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -55.26
+      value: -55.259995
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7857,12 +8148,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -7913,6 +8208,14 @@ PrefabInstance:
       value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -101.890594
       objectReference: {fileID: 0}
@@ -7930,11 +8233,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.39157146
+      value: -0.39157143
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.34777543
+      value: -0.34777546
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.z
@@ -8191,7 +8494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -8254,12 +8557,16 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -42.363
+      value: -42.36299
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.339
+      value: 6.338996
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8267,19 +8574,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.67325956
+      value: -0.6732596
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.20533141
+      value: 0.20533144
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.20721287
+      value: 0.20721288
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.6794287
+      value: -0.67942876
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8458,6 +8765,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65621bb948af5784aa84f3dc5357f74c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1045461274 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1004478325916032600, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
+  m_PrefabInstance: {fileID: 1805239601}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1071372893
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8616,12 +8928,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -8672,12 +8988,20 @@ PrefabInstance:
       value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -94.578
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.386
+      value: 6.3859987
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8734,12 +9058,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -8790,6 +9118,18 @@ PrefabInstance:
       value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -100.39
       objectReference: {fileID: 0}
@@ -8799,11 +9139,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.543
+      value: -6.5429993
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8495665
+      value: 0.84956646
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.x
@@ -8811,7 +9151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.000000029802319
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.z
@@ -9382,6 +9722,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6aa1752d8bede0448b0eacb96361bcb3, type: 3}
   m_PrefabInstance: {fileID: 851038251}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1156499773 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1004478325403824988, guid: 822414e855a5b0948a108d68e435b5bf, type: 3}
+  m_PrefabInstance: {fileID: 1805239601}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1166307548 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8623164558921465253, guid: 2c962a2e9e8a90442a438ab6218002e1, type: 3}
@@ -9710,7 +10055,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -9774,11 +10119,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -38.009
+      value: -38.00898
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.335
+      value: 6.3350058
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9786,19 +10131,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.6247636
+      value: -0.62476367
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.32420665
+      value: 0.3242067
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.32717744
+      value: 0.32717746
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.6304881
+      value: -0.6304882
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10238,7 +10583,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -10301,16 +10646,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -56.715538
+      value: -56.715527
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.2149696
+      value: 5.2149725
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -25.30869
+      value: -25.308685
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10510,12 +10863,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -10570,12 +10927,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -59.156258
+      value: -59.15625
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.2149696
+      value: 5.2149725
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10697,12 +11062,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -10753,8 +11122,16 @@ PrefabInstance:
       value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -115.76
+      value: -115.759995
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10762,7 +11139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.92
+      value: -17.919998
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10912,12 +11289,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -10976,12 +11357,20 @@ PrefabInstance:
       value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -110.36
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.286454
+      value: 6.286455
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11510,12 +11899,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -11574,12 +11967,24 @@ PrefabInstance:
       value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -100.48999
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.207
+      value: 5.2070007
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11591,11 +11996,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.44919458
+      value: -0.44919455
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.43367398
+      value: -0.43367395
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.z
@@ -11763,12 +12168,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -11819,6 +12228,14 @@ PrefabInstance:
       value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.99999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -110.30527
       objectReference: {fileID: 0}
@@ -11836,7 +12253,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0000018994692
+      value: 0.0000019073486
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.y
@@ -11844,7 +12261,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000012646531
+      value: 0.0000012665987
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11881,12 +12298,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -11945,6 +12366,14 @@ PrefabInstance:
       value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -106.09
       objectReference: {fileID: 0}
@@ -11954,7 +12383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.35
+      value: -17.349998
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12038,7 +12467,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -12093,8 +12522,16 @@ PrefabInstance:
       value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -40.755
+      value: -40.754997
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12102,7 +12539,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -40.09
+      value: -40.089996
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12110,7 +12547,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.y
@@ -12228,12 +12665,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -12292,20 +12733,32 @@ PrefabInstance:
       value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -106.27
+      value: -106.26999
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.348
+      value: 6.3479996
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -50.26
+      value: -50.259995
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6297601
+      value: 0.62976
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.x
@@ -12313,7 +12766,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.32156235
+      value: -0.32156238
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.z
@@ -12401,7 +12854,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -12464,8 +12917,12 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -47.8819
+      value: -47.88189
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12477,19 +12934,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.67325956
+      value: -0.6732596
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.20533141
+      value: 0.20533144
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.20721287
+      value: 0.20721288
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.6794287
+      value: -0.67942876
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12560,12 +13017,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -12624,8 +13085,16 @@ PrefabInstance:
       value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -103.275
+      value: -103.274994
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12864,12 +13333,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -12920,16 +13393,24 @@ PrefabInstance:
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -58.742
+      value: -58.741993
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.3835
+      value: 6.383502
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -39.87
+      value: -39.869995
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12937,7 +13418,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.y
@@ -13364,12 +13845,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -13428,8 +13913,16 @@ PrefabInstance:
       value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -113.62
+      value: -113.619995
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13437,7 +13930,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -18.2
+      value: -18.199997
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13662,7 +14155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -13717,16 +14210,24 @@ PrefabInstance:
       value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -34.784
+      value: -34.78398
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.302
+      value: 5.302001
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -39.187
+      value: -39.186996
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13734,15 +14235,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14039,7 +14540,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -14094,12 +14595,20 @@ PrefabInstance:
       value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -55.62
+      value: -55.619984
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.3063173
+      value: 5.3063154
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14111,7 +14620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.y
@@ -14156,12 +14665,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -14233,7 +14746,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5583881
+      value: 0.5583882
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.x
@@ -14241,11 +14754,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.51098555
+      value: -0.5109856
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.38028413
+      value: 0.3802842
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14274,12 +14787,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -14330,6 +14847,14 @@ PrefabInstance:
       value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -95.621
       objectReference: {fileID: 0}
@@ -14339,7 +14864,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -14.337
+      value: -14.336998
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14408,12 +14933,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -14464,12 +14993,20 @@ PrefabInstance:
       value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -110.646
+      value: -110.645996
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.244
+      value: 5.2439995
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14477,7 +15014,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7703367
+      value: 0.7703366
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.x
@@ -15626,7 +16163,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dd6129b12e0d2c4b9b4926d2a11941b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ui: []
+  ui:
+  - {fileID: 214296780}
+  - {fileID: 1045461274}
+  - {fileID: 797139584}
+  - {fileID: 817923002}
+  - {fileID: 1156499773}
+  - {fileID: 774372518}
+  - {fileID: 406905737}
+  - {fileID: 10389634}
+  - {fileID: 87946188}
   showedInstructions0to3: 0
   finishedShowingInstructions0to3: 0
   collectedFirstPieceOfTrash: 0
@@ -15697,12 +16243,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -15753,16 +16303,24 @@ PrefabInstance:
       value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -113.8
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.244
+      value: 5.2439995
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -24.228
+      value: -24.227997
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15770,15 +16328,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.68357044
+      value: -0.6835704
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.000000029802322
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.000000029802322
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -16186,12 +16744,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -16250,6 +16812,14 @@ PrefabInstance:
       value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -105.627
       objectReference: {fileID: 0}
@@ -16259,7 +16829,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -26.133
+      value: -26.132996
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16304,12 +16874,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -16360,12 +16934,24 @@ PrefabInstance:
       value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -101.755
+      value: -101.75499
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.336
+      value: 6.3360004
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16377,11 +16963,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.34193498
+      value: 0.34193495
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.29839283
+      value: 0.29839277
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.z
@@ -16503,7 +17089,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -16566,8 +17152,16 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -60.063854
+      value: -60.063843
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17396,7 +17990,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -17459,12 +18053,20 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.99999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -60.58476
+      value: -60.58475
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.332859
+      value: 6.332858
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17476,11 +18078,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.6886888
+      value: 0.6886889
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.69499916
+      value: 0.6949992
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.z
@@ -17524,12 +18126,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -17580,16 +18186,24 @@ PrefabInstance:
       value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -98.341
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.386
+      value: 6.3859997
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -50.288
+      value: -50.287994
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17653,12 +18267,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -17707,6 +18325,14 @@ PrefabInstance:
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17900,12 +18526,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -17964,12 +18594,20 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -105.69
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.812
+      value: 5.812001
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18074,12 +18712,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -18130,12 +18772,20 @@ PrefabInstance:
       value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -98.831436
+      value: -98.83142
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.386
+      value: 6.3860016
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18203,12 +18853,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -18265,6 +18919,14 @@ PrefabInstance:
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_RootOrder
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18407,7 +19069,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -18470,12 +19132,24 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -35.4331
+      value: -35.43309
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.3282
+      value: 6.3282003
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18487,15 +19161,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.6612096
+      value: 0.6612095
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6672683
+      value: 0.66726834
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.24354383
+      value: -0.2435438
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19064,12 +19738,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146557117066526079, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: recyclingCamera
@@ -19118,6 +19796,14 @@ PrefabInstance:
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_RootOrder
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
       objectReference: {fileID: 0}
     - target: {fileID: 3553272760301702060, guid: 92e2c07a75e91284887d77ed55827fe6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19204,12 +19890,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -19266,6 +19956,14 @@ PrefabInstance:
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_RootOrder
       value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19498,7 +20196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera
@@ -19561,12 +20259,20 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -39.125504
+      value: -39.125496
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.26
+      value: 5.260001
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19582,11 +20288,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.20989446
+      value: 0.20989445
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.67860496
+      value: -0.678605
       objectReference: {fileID: 0}
     - target: {fileID: 7566761674461590181, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19626,12 +20332,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 124662868}
     m_Modifications:
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1402523260}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: journeyTime
-      value: 7.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2580131339796146715, guid: 925d57d439ef80542a5ed0b16cb8b2f1, type: 3}
       propertyPath: recyclingCamera

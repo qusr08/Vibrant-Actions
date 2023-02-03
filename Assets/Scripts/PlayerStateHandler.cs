@@ -39,6 +39,8 @@ public class PlayerStateHandler : MonoBehaviour
 
     private void Start()
     {
+        Cursor.visible = false;
+        
         // Modify volume based on slider in settings menu.
         GetComponent<AudioSource>().volume = 0.15f * PersistentData.Instance.musicVolume;
         
@@ -86,11 +88,15 @@ public class PlayerStateHandler : MonoBehaviour
     {
         if (inRecyclingTrigger && !GetComponent<Bag>().Empty)
         {
+            Debug.Log("inRecyclingTrigger is " + inRecyclingTrigger);
+            Debug.Log("Bag is empty: " + GetComponent<Bag>().Empty);
+
             State = GameStates.Recycling;
 
             if (!showUI.goneRecycling)
             {
                 showUI.goneRecycling = true;
+                Debug.Log("ShowInstructions7 called in PlayerStateHandler");
                 showUI.ShowInstructions7();
             }
         }

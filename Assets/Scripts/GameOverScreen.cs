@@ -4,6 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameOverScreen : MonoBehaviour {
+	private void Start()
+	{
+		Cursor.visible = true;
+	}
+
 	public void Quit ( ) {
 		Application.Quit( );
 	}

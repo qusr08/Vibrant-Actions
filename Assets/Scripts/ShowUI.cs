@@ -18,7 +18,8 @@ public class ShowUI : MonoBehaviour
     {
         StartCoroutine(Wait());
         //GameObject[] instructs = GameObject.FindGameObjectsWithTag("Instruct");
-        ui = GameObject.FindGameObjectsWithTag("Instruct").ToList();
+        //ui = GameObject.FindGameObjectsWithTag("Instruct").ToList();
+        Debug.Log("ui list Count = " + ui.Count);
 
         for(int i = 0; i < ui.Count; i++){
             ui[i].SetActive(false);
@@ -84,6 +85,8 @@ public class ShowUI : MonoBehaviour
 
     public void ShowInstructions7()
     {
+        Debug.Log("ShowInstructions7 called in ShowUI");
+
         // Walk up to the bins in front of the store and press ENTER
         // --> Press A to dispose the current piece of trash in the landfill bin.
         //     Press D to throw it in the recycling bin.
