@@ -8,15 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 217768be77c9cf047b70a4e6bc5ddcf0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BagInventoryTest.unity
     guid: 4b841f79d8ef1f14a905b83f9e6d092b
   - enabled: 0
     path: Assets/Scenes/GameStateTest.unity
     guid: 96ec69850b7631e4491dd224cfdac767
   - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
     path: Assets/Scenes/Game.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    guid: 76e279ad1831c444f9bf76b05dedcb83
   - enabled: 1
     path: Assets/Scenes/End.unity
     guid: 4d00db7d6346be44d94025925092d02f
