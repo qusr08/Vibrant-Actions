@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CinemachineTarget
+  - Trash
+  - Footsteps/Sand
+  - Footsteps/Water
+  - Footsteps/Wood
+  - RecyclingTrigger
+  - Instruct
   layers:
   - Default
   - TransparentFX
@@ -12,8 +19,8 @@ TagManager:
   - Water
   - UI
   - 
-  - 
-  - 
+  - Bins
+  - Interactables
   - 
   - 
   - 

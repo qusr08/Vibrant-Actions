@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/Terrain.prefab.meta
+guid: 5ab2859e499865a44b77452deca3b8e3
+========
+guid: 22991898ba9903a4b8dba194793338c7
+>>>>>>>> develop-shaders:Assets/Prefabs/Trash.prefab.meta
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

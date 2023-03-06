@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Audio.meta
+guid: 12b8a0b2e285fd2408a690de35e9c6a2
+========
+guid: 27665e08a56b310479ba529b091e6802
+>>>>>>>> develop-shaders:Assets/Materials.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

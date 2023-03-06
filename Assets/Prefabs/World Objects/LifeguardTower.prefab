@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1056346292492786578
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -90.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.1723223
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -23.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 79b11b6f95c1d8e4587c2e23ac61a001, type: 2}
+    - target: {fileID: 919132149155446097, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+      propertyPath: m_Name
+      value: LifeguardTower
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+--- !u!1 &173824588585133763 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 696b2c7472ee5f74ba736e8bf27130c4, type: 3}
+  m_PrefabInstance: {fileID: 1056346292492786578}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1957547546
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173824588585133763}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1957547547
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173824588585133763}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.82, y: 3.97, z: 5.73}
+  m_Center: {x: 0, y: 0, z: -0.09}

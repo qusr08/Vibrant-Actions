@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Materials/New Material.mat.meta
+guid: 7283348191a16a640af16ab3085c73dd
+========
+guid: c661073242f4cc04e83b1d0a782b400f
+>>>>>>>> develop-shaders:Assets/Materials/TrashGrayscaleMaterial.mat.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

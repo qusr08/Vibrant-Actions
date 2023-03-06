@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/StarterAssets/FirstPersonController/Scenes/Playground.unity.meta
+guid: 707acc8dffb72b144bb1ffbe1c965f3d
+========
+guid: 6b011ecf7b0840a4a8ad036acc497dc7
+>>>>>>>> develop-shaders:Assets/Scenes/Shader Testing.unity.meta
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

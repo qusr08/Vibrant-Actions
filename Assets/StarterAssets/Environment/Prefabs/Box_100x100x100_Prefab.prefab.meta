@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/StarterAssets/Environment/Prefabs/Box_100x100x100_Prefab.prefab.meta
+guid: e5f4daf24146ee040b5a2d7a73b30aa0
+PrefabImporter:
+========
+guid: 05a4ca842030e7d40a5039ff1c08dae8
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> develop-shaders:Assets/Prefabs.meta
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

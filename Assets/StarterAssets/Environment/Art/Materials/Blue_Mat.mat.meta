@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/StarterAssets/Environment/Art/Materials/Blue_Mat.mat.meta
+guid: 979aef027a1c86c42a15ce35fce366fa
+========
+guid: 9d5a3adb764cf3f4f8738dba8e76adbb
+>>>>>>>> develop-shaders:Assets/Materials/TrashSphereMaterial.mat.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
